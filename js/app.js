@@ -8,6 +8,18 @@ app.config(function($routeProvider){
         .when('/contact', {
             templateUrl: 'views/contact.html'
         })
+        .when('/projects', {
+            templateUrl: 'views/project.html'
+        })
+        .when('/projects/the-cure', {
+            templateUrl: 'views/project.html',
+            controller: 'theCureCtrl'
+        })
+        .when('/projects/warfare', {
+            templateUrl: 'views/project.html',
+            controller: 'warfareCtrl'
+        })
+        .otherwise('/');
 });
 
 

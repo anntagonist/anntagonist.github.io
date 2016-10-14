@@ -16,7 +16,8 @@ header div a h2{
     margin-left: 10px;
 }
 
-header div nav {
+header div nav,
+#project-view {
   display: flex;
   justify-content: flex-end;
 }
@@ -45,6 +46,24 @@ body{
     padding: 1.5%;
 }
 
+.navbar-fixed-side-left{
+    left:0;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 2px;
+    color: var(--dusty-gold);
+}
+
+.navbar-fixed-side-left p{
+    border-bottom: solid var(--dark-gray) 1px;
+    border: solid var(--powder-blue) 2px;
+}
+
+.project-information {
+    position: relative;
+    border: solid var(--dusty-gold) 2px;
+}
+
 /* Links */
 a:link{
     color: var(--powder-blue);
@@ -53,11 +72,16 @@ a:link{
 a:hover{
     color: white;
 }
-a:visited{
-    color: var(--powder-blue);
+
+.navbar-fixed-side-left a{
+    color: var(--dusty-gold);
     text-decoration: none;
 }
+.navbar-fixed-side-left a:hover{
+    color: white;
+}
 
+/* Footer */
 footer p{
     margin-top:20px;
 }
