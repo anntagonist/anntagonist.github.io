@@ -40,6 +40,7 @@ body{
 
 #heading{
     color: var(--dusty-gold);
+    margin-top: -10px;
 }
 
 .container-view{
@@ -55,21 +56,23 @@ body{
 .navbar-fixed-side-left{
     left:0;
     position: fixed;
-    margin-top: 10px;
+    margin-top: -1%px;
     margin-left: 2px;
     width: 100px;
     color: var(--dusty-gold);
+    /* border: solid var(--powder-blue) 2px; */
+    text-align: center;
 }
 
 .navbar-fixed-side-left p{
     border-bottom: solid var(--dark-gray) 1px;
-    border: solid var(--powder-blue) 2px;
 }
 
 .project-information {
     position: relative;
-    border: solid var(--dusty-gold) 2px;
+    /* border: solid var(--dusty-gold) 2px; */
     margin-left:100px;
+    margin-top: -1%;
 }
 
 /* Links */
