@@ -73,6 +73,10 @@ body{
     color: var(--powder-blue);
 }
 
+.navbar-fixed-top a:visited {
+    text-decoration: none;
+}
+
 .navbar-fixed-side-left a{
     color: var(--dusty-gold);
     text-decoration: none;
