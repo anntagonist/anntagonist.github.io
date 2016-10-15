@@ -81,11 +81,6 @@ body{
     color: var(--powder-blue);
 }
 
-.navbar-fixed-side-top a:visited {
-    text-decoration: none;
-    color: var(--dusty-gold);
-}
-
 .navbar-fixed-side-left a{
     color: var(--dusty-gold);
     text-decoration: none;
