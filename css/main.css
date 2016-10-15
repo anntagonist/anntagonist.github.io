@@ -70,7 +70,7 @@ body{
     text-decoration: none;
 }
 .navbar-fixed-top a:hover{
-    color: white;
+    color: var(--powder-blue);
 }
 
 .navbar-fixed-top a:visited {
