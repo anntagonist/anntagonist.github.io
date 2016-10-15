@@ -27,7 +27,7 @@ app.config(function($routeProvider){
 $(document).ready(function(){
     //Set the page-view to dynamically change based on the headers.height
     $(window).resize(function() {
-        $('.container-view').css('margin-top', $('.navbar-fixed-side-top').height());
+        $('.container-view').css('margin-top', $('.navbar-fixed-top').height());
 //        var $viewHeight = $('.navbar-fixed-top').height() + $('.navbar-fixed-bottom').height();
 //        $viewHeight = $(window).height() - $viewHeight;
 //        $('.container-view').css('height', $viewHeight);
