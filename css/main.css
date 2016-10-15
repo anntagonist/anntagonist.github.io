@@ -71,7 +71,7 @@ body{
     border: 0;
     text-decoration: none;
 }
-.navbar-fixed-top a:hover{
+.navbar-fixed-top a.hover{
     color: var(--powder-blue);
 }
 
