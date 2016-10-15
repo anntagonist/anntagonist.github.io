@@ -71,7 +71,7 @@ body{
 }
 
 /* Links */
-.navbar-fixed-side-top a:link{
+.navbar-fixed-side-top a{
     color: var(--dusty-gold);
     outline: none;
     border: 0;
