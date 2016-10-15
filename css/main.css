@@ -71,14 +71,14 @@ body{
 }
 
 /* Links */
-.navbar-fixed-side-top a{
+.navbar-fixed-top a{
     color: var(--dusty-gold);
     outline: none;
     border: 0;
     text-decoration: none;
 }
-.navbar-fixed-side-top a:hover{
-    color: var(--powder-blue);
+.navbar-fixed-top a:hover{
+    color: white;
 }
 
 .navbar-fixed-side-left a{
