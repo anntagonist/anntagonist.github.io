@@ -67,6 +67,8 @@ body{
 /* Links */
 .navbar-fixed-top a:link{
     color: var(--dusty-gold);
+    outline: none;
+    border: 0;
     text-decoration: none;
 }
 .navbar-fixed-top a:hover{
