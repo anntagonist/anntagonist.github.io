@@ -46,6 +46,12 @@ body{
     padding: 1.5%;
 }
 
+.navbar-fixed-side-top{
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
 .navbar-fixed-side-left{
     left:0;
     position: fixed;
@@ -65,17 +71,17 @@ body{
 }
 
 /* Links */
-.navbar-fixed-top a:link{
+.navbar-fixed-side-top a:link{
     color: var(--dusty-gold);
     outline: none;
     border: 0;
     text-decoration: none;
 }
-.navbar-fixed-top a.hover{
+.navbar-fixed-side-top a:hover{
     color: var(--powder-blue);
 }
 
-.navbar-fixed-top a:visited {
+.navbar-fixed-side-top a:visited {
     text-decoration: none;
     color: var(--dusty-gold);
 }
