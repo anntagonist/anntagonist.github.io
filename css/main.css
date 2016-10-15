@@ -75,6 +75,7 @@ body{
 
 .navbar-fixed-top a:visited {
     text-decoration: none;
+    color: var(--dusty-gold);
 }
 
 .navbar-fixed-side-left a{
