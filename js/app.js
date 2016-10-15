@@ -32,5 +32,6 @@ $(document).ready(function(){
 //        $viewHeight = $(window).height() - $viewHeight;
 //        $('.container-view').css('height', $viewHeight);
         $('.container-view').css('height', $(window).height());
+//        $('.project-information').css('margin-left', $('.navbar-fixed-side-left'));
     }).resize();
 });

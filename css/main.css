@@ -57,6 +57,7 @@ body{
     position: fixed;
     margin-top: 10px;
     margin-left: 2px;
+    width: 100px;
     color: var(--dusty-gold);
 }
 
@@ -68,6 +69,7 @@ body{
 .project-information {
     position: relative;
     border: solid var(--dusty-gold) 2px;
+    margin-left:100px;
 }
 
 /* Links */
