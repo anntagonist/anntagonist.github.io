@@ -73,6 +73,10 @@ a:hover{
     color: white;
 }
 
+a:visited {
+    color: var(--powder-blue);
+}
+
 .navbar-fixed-side-left a{
     color: var(--dusty-gold);
     text-decoration: none;
