@@ -65,15 +65,15 @@ body{
 }
 
 /* Links */
-a:link{
+.navbar-fixed-top a:link{
     color: var(--dusty-gold);
     text-decoration: none;
 }
-a:hover{
+.navbar-fixed-top a:hover{
     color: white;
 }
 
-a:visited {
+.navbar-fixed-top a:visited {
     color: var(--dusty-gold);
 }
 
