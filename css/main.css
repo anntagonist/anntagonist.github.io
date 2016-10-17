@@ -1,6 +1,8 @@
 :root{
     --powder-blue: #9db6e0;
-    --dark-gray: #535559;
+    /* --light-black: #535559; /* */
+    --light-black: #2d2d2d;
+    --dark-gray: #848484;
     --black: #202123;
     --dusty-gold: #e8ca8b;
     --warning-red: #db0202;
@@ -29,7 +31,7 @@ header p {
 }
 
 #style-header{
-    background-color: var(--dark-gray);
+    background-color: var(--light-black);
     color: var(--powder-blue);
 }
 
@@ -43,6 +45,10 @@ body{
     color: var(--warning-red);
 }
 
+#synopsis{
+    color: var(--powder-blue);
+}
+
 #heading{
     color: var(--dusty-gold);
     margin-top: -10px;
@@ -50,6 +56,7 @@ body{
 
 .container-view{
     padding: 1.5%;
+    overflow: scroll;
 }
 
 .navbar-fixed-side-top{

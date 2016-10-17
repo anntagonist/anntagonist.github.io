@@ -9,6 +9,9 @@ app.config(function($routeProvider){
         .when('/contact-us', {
             templateUrl: 'views/contact.html',
         })
+        .when('/about-us', {
+            templateUrl: 'views/about.html',
+        })
         .when('/the-cure', {
             templateUrl: 'views/thecure.html',
             controller: 'theCureCtrl'
@@ -26,6 +29,8 @@ $(document).ready(function(){
     //Set the page-view to dynamically change based on the headers.height
     $(window).resize(function() {
         $('.container-view').css('margin-top', $('.navbar-fixed-top').height());
-        $('.container-view').css('height', $(window).height());
+        var $viewHeight = $('.navbar-fixed-top').height() + $('.navbar-fixed-bottom').height();
+        $viewHeight = $(window).height() - $viewHeight;
+        $('.container-view').css('height', $viewHeight);
     }).resize();
 });
