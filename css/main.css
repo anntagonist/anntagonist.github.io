@@ -93,7 +93,7 @@ body{
 
 div div img {
     max-height: 960px;
-    max-width: 540px;
+    max-width: 100%;
 }
 
 /* Links */
