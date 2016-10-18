@@ -25,4 +25,8 @@ app.controller('aboutCtrl', function($scope){
         },
     ];
 
+    $scope.isEven = function(index){
+        return index%2===0;
+    }
+
 });

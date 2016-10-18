@@ -8,10 +8,10 @@
     <div class="col-xs-6">
         <!--suppress XmlDuplicatedId -->
         <h3 id="synopsis">Save the World</h3>
-        <p>It has been 37 months since the outbreak, the nation is all but lost, and everyone is just trying to survive.</p>
-        <p>Ann has discovered what she believes is the cure to fight the disease that plagues the world.</p>
-        <p>It is up to Ann, Johnathan, and Micheal to travel south to the University of Colorado, where the anti-virus
-        can be mass produced before it is too late.</p>
+        <div>It has been 37 months since the outbreak, the nation is all but lost, and everyone is just trying to survive.</div>
+        <div>Ann has discovered what she believes is the cure to fight the disease that plagues the world.</div>
+        <div>It is up to Ann, Johnathan, and Micheal to travel south to the University of Colorado, where the anti-virus
+        can be mass produced before it is too late.</div>
     </div>
     <div class="col-xs-6"></div>
 </div>
@@ -20,20 +20,34 @@
     <div class="col-xs-6"></div>
     <div class="col-xs-6">
         <h3 id="warning">Be Warned</h3>
-        <p>This journey will not be a safe one, those of the dead roam the streets.</p>
-        <p>They hunger for the living, and you are oh so much alive.</p>
-        <p>Stay alive, save world at all costs.</p>
+        <div>This journey will not be a safe one, those of the dead roam the streets.</div>
+        <div>They hunger for the living, and you are oh so much alive.</div>
+        <div>Stay alive, save world at all costs.</div>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-xs-6">
-        <!--suppress XmlDuplicatedId -->
-        <h3 id="synopsis">Not Only Infected</h3>
-        <p>The infected are not the only thing that is dangerous.</p>
-        <p>The group will need to defend themselves not only from the infected, but the elements,
-        wild animals, and other humans.</p>
-        <p>Do what is necessary to stay alive, and keep the cure out of harms way.</p>
+<div class="row" ng-repeat="detail in details">
+    <div ng-show="isEven($index)">
+        <div class="col-xs-6">
+            <h3 id="synopsis">{{ detail.heading }}</h3>
+            <div ng-repeat="line in detail.body">{{ line }}</div>
+        </div>
+        <div class="col-xs-6"></div>
     </div>
-    <div class="col-xs-6"></div>
+    <div ng-show="isEven($index+1)">
+        <div class="col-xs-6"></div>
+        <div class="col-xs-6">
+            <h3 id="synopsis">{{ detail.heading }}</h3>
+            <div ng-repeat="line in detail.body">{{ line }}</div>
+        </div>
+    </div>
+    <!--<div class="col-xs-6">-->
+        <!--&lt;!&ndash;suppress XmlDuplicatedId &ndash;&gt;-->
+        <!--<h3 id="synopsis">Not Only Infected</h3>-->
+        <!--<p>The infected are not the only thing that is dangerous.</p>-->
+        <!--<p>The group will need to defend themselves not only from the infected, but the elements,-->
+        <!--wild animals, and other humans.</p>-->
+        <!--<p>Do what is necessary to stay alive, and keep the cure out of harms way.</p>-->
+    <!--</div>-->
+    <!--<div class="col-xs-6"></div>-->
 </div>
