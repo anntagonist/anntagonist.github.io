@@ -49,8 +49,11 @@ body{
     color: var(--powder-blue);
 }
 
-#heading{
+#gold-heading{
     color: var(--dusty-gold);
+}
+
+.heading{
     margin-top: -10px;
 }
 
