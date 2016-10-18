@@ -4,7 +4,7 @@ app.config(function($routeProvider){
     $routeProvider
         .when('/', {
             templateUrl: 'views/home.html',
-            controller: 'homeCtrl'
+            //controller: 'homeCtrl'
         })
         .when('/contact-us', {
             templateUrl: 'views/contact.html',
@@ -34,4 +34,7 @@ $(document).ready(function(){
         $viewHeight = $(window).height() - $viewHeight;
         $('.container-view').css('height', $viewHeight);
     }).resize();
+    $("img").each(function(){
+        $(this).attr('onerror', this.src="baby.jpg");
+    });
 });

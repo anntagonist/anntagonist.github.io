@@ -23,6 +23,20 @@ app.controller('aboutCtrl', function($scope){
             "If we cut corners in our development, exploit it.",
             "We discourage people from hacking User and Billing accounts."]
         },
+        {
+            heading: "Donations",
+            body:["We appreciate any donations that we can get.  It helps us spend less time at work and more time working on our projects",
+            "We are always in need of getting new equipment, and funding to pay others for art work and music.",
+            "We will gladly accept any concept art that you believe would benefit our site or games."
+            ]
+        },
+        {
+            heading: "Future Goals",
+            body:["We want to publish games that we would play ourselves.",
+            "Become self sufficient so that we won't have to work other jobs to pay the bills.",
+            "Expand, adding new members to our team, and release products for you to enjoy."
+            ]
+        },
     ];
 
     $scope.isEven = function(index){
