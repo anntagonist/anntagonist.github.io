@@ -60,6 +60,7 @@ body{
 .container-view{
     padding: 1.5%;
     overflow: scroll;
+    margin-bottom:10px;
 }
 
 .navbar-fixed-side-top{
@@ -88,6 +89,11 @@ body{
     /* border: solid var(--dusty-gold) 2px; */
     margin-left:100px;
     margin-top: -1%;
+}
+
+img {
+    max-height: 338px;
+    max-width: 600px;
 }
 
 /* Links */
