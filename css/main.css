@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 :root{
     --powder-blue: #9db6e0;
     /* --light-black: #535559; /* */
@@ -98,9 +100,28 @@ ul {
     overflow: hidden;
 }
 
-li a{
-    display: block;
-    text-align: center;
+li {
+    float: left;
+}
+
+a{
+    color: var(--powder-blue);
+    outline: none;
+    border: 0;
+}
+
+.nav-pills > li > a:hover{
+    background-color: var(--light-black);
+    color: var(--powder-blue);
+    outline: none;
+    border: 0;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.selected > a, .btn-primary {
+  background-color: var(--dark-gray) !important;
+  color: var(--dusty-gold) !important;
+  outline: none;
+  border: 0;
 }
 
 .navbar-fixed-top a{

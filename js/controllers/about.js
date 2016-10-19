@@ -39,8 +39,15 @@ app.controller('aboutCtrl', function($scope){
         },
     ];
 
-    $scope.isEven = function(index){
-        return index%2===0;
+    $scope.currentTab = 1;
+
+    $scope.setTab = function(tab){
+        console.log("Setting tab to: " + tab);
+        $scope.currentTab = tab;
+    }
+
+    $scope.isTab = function(tab){
+        return $scope.currentTab === tab;
     }
 
 });
