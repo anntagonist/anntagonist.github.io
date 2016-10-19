@@ -34,4 +34,12 @@ app.controller('theCureCtrl', function($scope){
     $scope.isEven = function(index){
         return index%2===0;
     }
+
+    $scope.currentTab = 1;
+    $scope.isTab = function(tab){
+        return $scope.currentTab === tab;
+    }
+    $scope.setTab = function(tab){
+        $scope.currentTab = tab;
+    }
 });

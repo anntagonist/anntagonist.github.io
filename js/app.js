@@ -33,8 +33,6 @@ $(document).ready(function(){
         var $viewHeight = $('.navbar-fixed-top').height() + $('.navbar-fixed-bottom').height();
         $viewHeight = $(window).height() - $viewHeight;
         $('.container-view').css('height', $viewHeight);
+        $('.info').css('margin-top', $('.nav-pills').height());
     }).resize();
-    $("img").each(function(){
-        $(this).attr('onerror', this.src="baby.jpg");
-    });
 });

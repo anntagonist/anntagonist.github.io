@@ -42,7 +42,6 @@ app.controller('aboutCtrl', function($scope){
     $scope.currentTab = 1;
 
     $scope.setTab = function(tab){
-        console.log("Setting tab to: " + tab);
         $scope.currentTab = tab;
     }
 
