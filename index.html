@@ -18,27 +18,32 @@
         <script type="text/javascript" src="js/app.js"></script>
     </head>
     <body>
-        <header class="navbar-fixed-top" id="style-header">
+        <nav class="navbar-fixed-top" id="style-header">
             <div class="container-fluid">
-                <div class="row">
-                    <h2 class="col-sm-6"><a href="#/">Antagonising Entertainment</a></h2>
-                    <nav class="col-sm-5 col-sm-offset-1">
-                        <a href="#/the-cure"><p>The Cure</p></a>
-                    </nav>
-                </div>
+                <!-- Menu buttons -->
+                <ul>
+                    <li class="left"><a href="#/"><h3>Antagonising Entertainment</h3></a></li>
+                    <li class="right" style="margin-top:1.5em;"><a href="#/the-cure">The Cure</a></li>
+                </ul>
+                <!--<div class="row">-->
+                        <!--<h3 class="left"><a href="#/">Antagonising Entertainment</a></h3>-->
+                        <!--<p class="right"><a href="#/the-cure">The Cure</a></p>-->
+                <!--</div>-->
             </div>
-        </header>
+        </nav>
         <div class="container-view">
             <div class="ng-view"></div>
         </div>
-        <footer class="navbar-fixed-bottom">
+        <nav class="navbar-fixed-bottom">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-4"><p>&copy;2016 Antagonising Entertainment</p></div>
-                    <div class="col-sm-2 col-sm-offset-6"><a href="#/about-us"><p class="right">About Us</p></a></div>
-                </div>
+                <ul>
+                    <li class="left">&copy;2016 Antagonising Entertainment</li>
+                    <li class="right"><a href="#/about-us">About</a></li>
+                </ul>
+                    <!--<div class="col-lg-4"><p>&copy;2016 Antagonising Entertainment</p></div>-->
+                    <!--<div class="col-lg-2 col-lg-offset-6"><a href="#/about-us"><p class="right">About Us</p></a></div>-->
             </div>
-        </footer>
+        </nav>
 
         <!-- Controllers -->
         <script type="text/javascript" src="js/controllers/theCure.js"></script>

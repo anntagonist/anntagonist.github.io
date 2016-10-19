@@ -19,12 +19,6 @@ header div a h2{
     margin-left: 10px;
 }
 
-header div nav,
-#project-view {
-  display: flex;
-  justify-content: flex-end;
-}
-
 header p {
   padding: 0 20px;
   margin: 0;
@@ -67,6 +61,7 @@ body{
     top: 0;
     position: fixed;
     width: 100%;
+    align-items: center;
 }
 
 .navbar-fixed-side-left{
@@ -97,6 +92,17 @@ div div img {
 }
 
 /* Links */
+ul {
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    text-align: center;
+}
+
 .navbar-fixed-top a{
     color: var(--dusty-gold);
     outline: none;
@@ -115,19 +121,19 @@ div div img {
     color: white;
 } /* */
 
-footer a{
+.navbar-fixed-bottom a{
     color: var(--dark-gray);
     text-decoration: none;
     border: 0;
     outline: none;
 }
 
-footer a:hover{
+.navbar-fixed-bottom a:hover{
     color: var(--dusty-gold);
 }
 
 /* Footer */
-footer {
+.navbar-fixed-bottom {
     border-top: solid var(--dark-gray) 1px;
 }
 
