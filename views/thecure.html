@@ -20,54 +20,120 @@
 <div class="container-fluid info" ng-show="isTab(1)">
     <div class="row text-center">
         <h1 class="heading" id="gold-heading">The Cure</h1>
-        <h2>Containing the solution to zombie-virus</h2>
-        <h3>What will you do with it?</h3>
+        <h2>The Nation is Infected</h2>
+        <h3>What will you do to save it?</h3>
     </div>
 
     <div class="row">
-        <div class="col-sm-6 left">
-            <!--suppress XmlDuplicatedId -->
-            <h3 id="synopsis">Save the World</h3>
-            <div>It has been 37 months since the outbreak, the nation is all but lost, and everyone is just trying to survive.</div>
-            <div>Ann has discovered what she believes is the cure to fight the disease that plagues the world.</div>
-            <div>It is up to Ann, Johnathan, and Micheal to travel south to the University of Colorado, where the anti-virus
-            can be mass produced before it is too late.</div>
+        <div class="col-sm-6">
+            <h3 id="synopsis">The Infection</h3>
+            <p>
+                37 months ago the nation had a catastrophic outbreak of the Dr. Enigma Adenohypophysis Degenerate Virus.
+            </p>
+            <p>
+                The D.E.A.D. Virus has spread throughout the nation, which has been quarantined from the rest of the World,
+                in attempt to prevent the virus from spreading.  Due to the quarantine all trades with the outside world has been suspended
+                and it is left to the people of the United States to survive.
+            </p>
+
+            <p>
+                The infected have run rampant, with no morality, killing those they once loved in violent fits of rage, or spreading
+                the infection to others through various means.
+            </p>
+
+            <p>
+                Law Enforcement, Fire Departments, Coast Guard, and the Military Might of the nation rallied to protect the people.
+                Everyone was instructed to stay home with their families, locked behind their doors, until containment was fulfilled.
+                However due to the ignorance of how to properly identify symptoms of who was already infected, people weren't safe within
+                their own homes.
+            </p>
         </div>
-        <div class="col-sm-6 right">
-            <img ng-src="img/baby.jpg" />
+        <div class="col-sm-6"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6">
+            <h3 id="synopsis">The Nation</h3>
+            <p>
+                The nation's leaders have gone underground to protect themselves from the threat of the D.E.A.D. Virus, allowing the people
+                to turn on one another, build their own territories, and creating their own laws.
+            </p>
+            <p>
+                Gangs have taken to the streets fighting for resources, land, and shelter.  Mercenaries are taking various jobs that
+                people are too scared to do themselves.  Bandits are breaking into homes and camps for supplies.
+                The infected are not the only threat out there.
+            </p>
+            <p>
+                Large farms have stopped producing mass amounts of food, meat and dairy products are no longer easily obtained.
+                Currency no longer holds any trade value, instead the most basic of resources such as food and water are worth the price
+                of shelter and protection.
+            </p>
+            <p>
+                Vehicles that run on standard gasoline no longer are of use, due to the gasoline expiring.  Batteries and other
+                components of most of the vehicles have been stripped out for all kinds of uses.
+            </p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-6 right">
-            <h3 id="warning">Be Warned</h3>
-            <div>This journey will not be a safe one, those of the dead roam the streets.</div>
-            <div>They hunger for the living, and you are oh so much alive.</div>
-            <div>Stay alive, save world at all costs.</div>
+        <div class="col-sm-6">
+            <h3 id="synopsis">The Cure</h3>
+            <p>
+                A Graduate student working the the field of Biochemistry by the name of Ann believes that she has discovered the cure
+                to the D.E.A.D. Virus up in Northern Colorado.  The only problem is that she doesn't have the resources to mass produce
+                the vaccine or the means to distribute it throughout the population.
+            </p>
+            <p>
+                The University of Colorado is located in a small town 148 miles south of Ann's current location.
+            </p>
         </div>
-        <div class="col-sm-6 left">
-            <img ng-src="img/baby.jpg" />
-        </div>
+        <div class="col-sm-6"></div>
     </div>
 
-    <div class="row" ng-repeat="detail in details">
-        <div ng-show="isEven($index)">
-            <div class="col-sm-6 left">
-                <h3 id="synopsis">{{ detail.heading }}</h3>
-                <div ng-repeat="line in detail.body">{{ line }}</div>
-            </div>
-            <div class="col-sm-6 right">
-                <img ng-src="{{ detail.img }}" />
-            </div>
-        </div>
-        <div ng-show="isEven($index+1)">
-            <div class="col-sm-6 right">
-                <h3 id="synopsis">{{ detail.heading }}</h3>
-                <div ng-repeat="line in detail.body">{{ line }}</div>
-            </div>
-            <div class="col-sm-6 left">
-                <img ng-src="{{ detail.img }}" />
-            </div>
-        </div>
-    </div>
+    <!--<div class="row">-->
+        <!--<div class="col-sm-6 left">-->
+            <!--&lt;!&ndash;suppress XmlDuplicatedId &ndash;&gt;-->
+            <!--<h3 id="synopsis">Save the World</h3>-->
+            <!--<div>It has been 37 months since the outbreak, the nation is all but lost, and everyone is just trying to survive.</div>-->
+            <!--<div>Ann has discovered what she believes is the cure to fight the disease that plagues the world.</div>-->
+            <!--<div>It is up to Ann, Johnathan, and Micheal to travel south to the University of Colorado, where the anti-virus-->
+            <!--can be mass produced before it is too late.</div>-->
+        <!--</div>-->
+        <!--<div class="col-sm-6 right">-->
+            <!--<img ng-src="img/baby.jpg" />-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="row">-->
+        <!--<div class="col-sm-6 right">-->
+            <!--<h3 id="warning">Be Warned</h3>-->
+            <!--<div>This journey will not be a safe one, those of the dead roam the streets.</div>-->
+            <!--<div>They hunger for the living, and you are oh so much alive.</div>-->
+            <!--<div>Stay alive, save world at all costs.</div>-->
+        <!--</div>-->
+        <!--<div class="col-sm-6 left">-->
+            <!--<img ng-src="img/baby.jpg" />-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="row" ng-repeat="detail in details">-->
+        <!--<div ng-show="isEven($index)">-->
+            <!--<div class="col-sm-6 left">-->
+                <!--<h3 id="synopsis">{{ detail.heading }}</h3>-->
+                <!--<div ng-repeat="line in detail.body">{{ line }}</div>-->
+            <!--</div>-->
+            <!--<div class="col-sm-6 right">-->
+                <!--<img ng-src="{{ detail.img }}" />-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div ng-show="isEven($index+1)">-->
+            <!--<div class="col-sm-6 right">-->
+                <!--<h3 id="synopsis">{{ detail.heading }}</h3>-->
+                <!--<div ng-repeat="line in detail.body">{{ line }}</div>-->
+            <!--</div>-->
+            <!--<div class="col-sm-6 left">-->
+                <!--<img ng-src="{{ detail.img }}" />-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
