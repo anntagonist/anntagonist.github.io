@@ -53,6 +53,13 @@ app.controller('theCureCtrl', function($scope){
             rStatus: 'Married',
             img: "img/baby.jpg",
         },
+        {
+            name: 'Samantha Booty',
+            age: 47,
+            sex: 'Female',
+            rStatus: 'Widowed',
+            img: 'img/baby.jpg',
+        },
     ];
 
     $scope.isEven = function(index){
@@ -68,7 +75,7 @@ app.controller('theCureCtrl', function($scope){
     }
 })
 
-.directive('characterProfile', function(){
+.directive('myprofile', function(){
      return {
          restrict: 'E',
          scope: {

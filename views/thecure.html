@@ -100,13 +100,9 @@
     <div class="row text-center">
         <h1 class="heading" id="gold-heading">Characters</h1>
     </div>
-    <div class="row">
-        <div class="col-sm-4" ng-repeat="character in characters">
-            <character-profile info="character"></character-profile>
-            <!--<h4 id="synopsis">{{ character.name }}</h4>-->
-            <!--<div>Sex: {{ character.sex }}</div>-->
-            <!--<div>Age: {{ character.age }}</div>-->
-            <!--<div>Relationship Status: {{ character.rStatus }}</div>-->
+    <div ng-repeat="character in characters">
+        <div class="col-sm-6">
+            <myprofile info="character"></myprofile>
         </div>
     </div>
 </div> <!-- End of Characters tab -->
