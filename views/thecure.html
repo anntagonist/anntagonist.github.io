@@ -84,56 +84,29 @@
                 the vaccine or the means to distribute it throughout the population.
             </p>
             <p>
-                The University of Colorado is located in a small town 148 miles south of Ann's current location.
+                The University of Colorado is located in a small town 148 miles South of Ann's current location.  Ann accompanied by
+                Johnathan and Michael will have to make their way South to deliver Ann's findings for mass production.
+            </p>
+            <p>
+                They must defend themselves from the <a href ng-click="setTab(4)">dangers</a> that wait for them on their journey
+                to save the nation.
             </p>
         </div>
         <div class="col-sm-6"></div>
     </div>
+</div> <!-- End of General tab -->
 
-    <!--<div class="row">-->
-        <!--<div class="col-sm-6 left">-->
-            <!--&lt;!&ndash;suppress XmlDuplicatedId &ndash;&gt;-->
-            <!--<h3 id="synopsis">Save the World</h3>-->
-            <!--<div>It has been 37 months since the outbreak, the nation is all but lost, and everyone is just trying to survive.</div>-->
-            <!--<div>Ann has discovered what she believes is the cure to fight the disease that plagues the world.</div>-->
-            <!--<div>It is up to Ann, Johnathan, and Micheal to travel south to the University of Colorado, where the anti-virus-->
-            <!--can be mass produced before it is too late.</div>-->
-        <!--</div>-->
-        <!--<div class="col-sm-6 right">-->
-            <!--<img ng-src="img/baby.jpg" />-->
-        <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="row">-->
-        <!--<div class="col-sm-6 right">-->
-            <!--<h3 id="warning">Be Warned</h3>-->
-            <!--<div>This journey will not be a safe one, those of the dead roam the streets.</div>-->
-            <!--<div>They hunger for the living, and you are oh so much alive.</div>-->
-            <!--<div>Stay alive, save world at all costs.</div>-->
-        <!--</div>-->
-        <!--<div class="col-sm-6 left">-->
-            <!--<img ng-src="img/baby.jpg" />-->
-        <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="row" ng-repeat="detail in details">-->
-        <!--<div ng-show="isEven($index)">-->
-            <!--<div class="col-sm-6 left">-->
-                <!--<h3 id="synopsis">{{ detail.heading }}</h3>-->
-                <!--<div ng-repeat="line in detail.body">{{ line }}</div>-->
-            <!--</div>-->
-            <!--<div class="col-sm-6 right">-->
-                <!--<img ng-src="{{ detail.img }}" />-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div ng-show="isEven($index+1)">-->
-            <!--<div class="col-sm-6 right">-->
-                <!--<h3 id="synopsis">{{ detail.heading }}</h3>-->
-                <!--<div ng-repeat="line in detail.body">{{ line }}</div>-->
-            <!--</div>-->
-            <!--<div class="col-sm-6 left">-->
-                <!--<img ng-src="{{ detail.img }}" />-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-</div>
+<div class="container-fluid info" ng-show="isTab(2)">
+    <div class="row text-center">
+        <h1 class="heading" id="gold-heading">Characters</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" ng-repeat="character in characters">
+            <character-profile info="character"></character-profile>
+            <!--<h4 id="synopsis">{{ character.name }}</h4>-->
+            <!--<div>Sex: {{ character.sex }}</div>-->
+            <!--<div>Age: {{ character.age }}</div>-->
+            <!--<div>Relationship Status: {{ character.rStatus }}</div>-->
+        </div>
+    </div>
+</div> <!-- End of Characters tab -->
