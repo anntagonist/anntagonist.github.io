@@ -41,27 +41,39 @@ app.controller('theCureCtrl', function($scope, $window, $timeout){
 
     $scope.dangers = [
         {
-            heading: "You Have Choices",
+            heading: "Infected Roam the Streets",
             body: [
-                "Your choices matter, not only will they lead you down different paths, but they will result in unique endings.",
-                "Choosing to save someone can benefit or hinder you on you journey.",
-                "There will be consequences for your actions, consider your options because it may just save your life."
+                "Those who have been infected by D.E.A.D. are out there.",
+                "They do not share your sympathy or emotion, and they will do what ever it takes to kill you if you are discovered.",
+                "Traps can be used to protect oneself from their aggressive behavior."
             ]
         },
         {
-            heading: "You Have Choices",
+            heading: "Animals Have Migrated",
             body: [
-                "Your choices matter, not only will they lead you down different paths, but they will result in unique endings.",
-                "Choosing to save someone can benefit or hinder you on you journey.",
-                "There will be consequences for your actions, consider your options because it may just save your life."
+                "Mountain Lions, Bears, and other animals have migrated into the cities.",
+                "They are a threat, but can provide materials to help one survive.",
+                "These aren't domesticated pets, they will fight back if you pose a threat to them.",
+                "One might have to find alternate solutions to obtaining what these animals have to offer.",
             ]
         },
         {
-            heading: "You Have Choices",
+            heading: "People aren't so Kind",
             body: [
-                "Your choices matter, not only will they lead you down different paths, but they will result in unique endings.",
-                "Choosing to save someone can benefit or hinder you on you journey.",
-                "There will be consequences for your actions, consider your options because it may just save your life."
+                "Gangs wonder around, protecting what they consider to be their territory.",
+                "Bandits are always watching, waiting for an opportunity to take what they want.",
+                "Mercenaries can be found for hire, for the right price.  Be warned, they might be hunting you.",
+                "Camps may provide shelter and supplies, but these favors will cost one more than they might be willing to pay."+
+                "  Be careful, those who run the camps may not be trust worthy.",
+            ]
+        },
+        {
+            heading: "There are Choices",
+            body: [
+                "One's choices matter, not only will they lead them down different paths, but they will end differently.",
+                "Choosing to save someone can benefit or hinder one on their journey.",
+                "There will be consequences for one's actions, consider the options before making a choice.",
+                "One will make choices at their own discretion."
             ]
         },
     ];
