@@ -1,4 +1,4 @@
-app.controller('theCureCtrl', function($scope){
+app.controller('theCureCtrl', function($scope, $window, $timeout){
     $scope.project = {
         title: 'The Cure',
         description: 'You have found the cure to zombie-idous.'
@@ -39,6 +39,33 @@ app.controller('theCureCtrl', function($scope){
         },
     ];
 
+    $scope.dangers = [
+        {
+            heading: "You Have Choices",
+            body: [
+                "Your choices matter, not only will they lead you down different paths, but they will result in unique endings.",
+                "Choosing to save someone can benefit or hinder you on you journey.",
+                "There will be consequences for your actions, consider your options because it may just save your life."
+            ]
+        },
+        {
+            heading: "You Have Choices",
+            body: [
+                "Your choices matter, not only will they lead you down different paths, but they will result in unique endings.",
+                "Choosing to save someone can benefit or hinder you on you journey.",
+                "There will be consequences for your actions, consider your options because it may just save your life."
+            ]
+        },
+        {
+            heading: "You Have Choices",
+            body: [
+                "Your choices matter, not only will they lead you down different paths, but they will result in unique endings.",
+                "Choosing to save someone can benefit or hinder you on you journey.",
+                "There will be consequences for your actions, consider your options because it may just save your life."
+            ]
+        },
+    ];
+
     $scope.isEven = function(index){
         return index%2===0;
     }
@@ -47,7 +74,9 @@ app.controller('theCureCtrl', function($scope){
     $scope.isTab = function(tab){
         return $scope.currentTab === tab;
     }
+    $scope.scrollState = {};
     $scope.setTab = function(tab){
+        $('.container-view').scrollTop(0);
         $scope.currentTab = tab;
     }
 })

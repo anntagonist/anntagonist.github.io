@@ -35,4 +35,5 @@ $(document).ready(function(){
         $('.container-view').css('height', $viewHeight);
         $('.info').css('margin-top', $('.nav-pills').height());
     }).resize();
+
 });

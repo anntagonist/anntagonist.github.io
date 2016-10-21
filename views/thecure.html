@@ -18,7 +18,7 @@
 </div>
 
 <div class="container-fluid info" ng-show="isTab(1)">
-    <div class="row text-center">
+    <div class="jumbotron text-center">
         <h1 class="heading" id="gold-heading">The Cure</h1>
         <h2>The Nation is Infected</h2>
         <h3>Will you be able to save it?</h3>
@@ -97,7 +97,7 @@
 </div> <!-- End of General tab -->
 
 <div class="container-fluid info" ng-show="isTab(2)">
-    <div class="row text-center">
+    <div class="jumbotron text-center">
         <h1 class="heading" id="gold-heading">Characters</h1>
     </div>
     <div ng-repeat="character in characters">
@@ -108,17 +108,19 @@
 </div> <!-- End of Characters tab -->
 
 <div class="container-fluid info" ng-show="isTab(3)">
-    <h1>Creatures</h1>
+    <div class="jumbotron text-center">
+        <h1 class="heading" id="gold-heading">Creatures</h1>
+        <h3>Something else is out there</h3>
+    </div>
 </div> <!-- End of Creatures tab -->
 
 <div class="container-fluid info" ng-show="isTab(4)">
-    <div class="row text-center">
+    <div class="jumbotron text-center">
         <h1 class="heading" id="warning">Danger Lurking Around Every Corner</h1>
         <h3>Protect Yourself</h3>
     </div>
-    <div class="col-sm-6">
-        <h3>Make Choices</h3>
-        <div>Your choices matter, not only will they lead you down different paths, but they will
-        result in unique endings.</div>
+    <div class="col-sm-6" ng-repeat="danger in dangers">
+        <h3 id="warning">{{ danger.heading }}</h3>
+        <div ng-repeat="line in danger.body">{{ line }}</div>
     </div>
 </div> <!-- End of Danger tab -->

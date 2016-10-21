@@ -66,12 +66,16 @@ body{
     margin-bottom:10px;
 }
 
+.jumbotron {
+    background-color:transparent !important;
+}
+
+/*
 .project-information {
     position: relative;
-    /* border: solid var(--dusty-gold) 2px; */
     margin-left:100px;
     margin-top: -1%;
-}
+} /* */
 
 div div img {
     max-height: 960px;
