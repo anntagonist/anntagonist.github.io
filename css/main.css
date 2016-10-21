@@ -9,6 +9,7 @@
     --dusty-gold: #e8ca8b;
     --warning-red: #db0202;
     --dark-green: #215b06;
+    --off-white: #dee4ed;
 }
 
 /* Header */
@@ -114,10 +115,10 @@ img{
 }
 
 .myprofile{
-    width: 320px;
+    width: 340px;
     height: 480px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: var(--off-white);
     color: var(--light-black);
 }
 
