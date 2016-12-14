@@ -13,6 +13,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <!--More Scripts-->
         <script type="text/javascript" src="js/app.js"></script>
@@ -25,7 +26,19 @@
                 <!-- Menu buttons -->
                 <ul>
                     <li class="left"><a href="#/"><h3>Anntagonising Entertainment</h3></a></li>
-                    <li class="right" style="margin-top:1.5em;"><a href="#/the-cure">The Cure</a></li>
+                    <!--<li class="right" style="margin-top:1.5em;"><a href="#/the-cure">The Cure</a></li>-->
+                    <div class="right dropdown">
+                        <div>
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu pull-right text-center">
+                                <li><a href="#/Twitch">Twitch</a></li>
+                                <li><a href="#/Youtube">Youtube</a></li>
+                                <li><a href="#/Twitter">Twitter</a></li>
+                                <li><a href="#/about-us">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -45,5 +58,10 @@
         <script type="text/javascript" src="js/controllers/theCure.js"></script>
         <script type="text/javascript" src="js/controllers/about.js"></script>
         <script type="text/javascript" src="js/controllers/warfare.js"></script>
+        <script>
+            function menu(){
+                document.getElementById("menuDropdown").classList.toggle("show");
+            }
+        </script>
     </body>
 </html>
