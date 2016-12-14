@@ -98,7 +98,6 @@ a{
     text-decoration: none;
     outline: none;
     border: 0;
-    display: block;
 }
 a:hover{
     color: var(--dusty-gold);
@@ -176,6 +175,11 @@ img{
 
 .navbar-fixed-bottom a:hover{
     color: var(--dusty-gold);
+}
+
+.menuItem{
+    display: inline-block;
+    width: 100%;
 }
 
 /* Footer */
