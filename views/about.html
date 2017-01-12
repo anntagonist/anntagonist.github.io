@@ -1,51 +1,45 @@
-<!--<div class="row text-center">-->
-    <!--<h1 class="heading" id="synopsis">About Us</h1>-->
-<!--</div>-->
-<div class="row">
-    <nav>
-        <ul class="nav nav-pills">
-            <li ng-class="{active: currentTab==1}">
-                <a href ng-click="setTab(1)">General</a>
-            </li>
-            <li ng-class="{active: currentTab==2}">
-                <a href ng-click="setTab(2)">Goals</a>
-            </li>
-            <li ng-class="{active: currentTab==3}">
-                <a href ng-click="setTab(3)">Contribute</a>
-            </li>
-            <li ng-class="{active: currentTab==4}">
-                <a href ng-click="setTab(4)">Donate</a>
-            </li>
-        </ul>
-    </nav>
+<div class="jumbotron text-center">
+    <h1>About Me</h1>
+    <p> A boy that grew up into a man loving to play video games with the dreams of making his own some day</p>
 </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h3>General Info</h3>
+            <div>
+                I am the 3rd eldest of 7 children in a family of 9.
+                I grew up in love with sports, and in love with video games.
+                I am happily married to the love of my life, we currently don't have any kds, but we do have a dog.
+            </div>
+        </div>
 
-<!-- General Tab -->
-<div class="row info" ng-show="isTab(1)">
-    <h1>General Information</h1>
-    <div class="col-sm-6" ng-repeat="info in information">
-        <h5 id="gold-heading">{{ info.heading }}</h5>
-        <div ng-repeat="line in info.body">{{ line }}</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h3>Professional Info</h3>
+            <div>
+                I went to college so that I could learn skills to develop video games.  I started by getting my Associate of Arts Degree, but I didn't find
+                the skill set that I was looking for.  I continued going to school where I pursued getting my Bachelor's of Science degree in Computer Science.
+                I'm currently a Software Engineer working as a contractor for a staffing agency company.
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h3>Gaming Background</h3>
+            <div>
+                When I was younger I played platformer games like Super Mario, and Donkey Kong when my family would go see my Grandparents.
+                I got heavily involved with playing video games when I was in middle school.
+                I first played shooter games like Halo, and Socom, then later got into single player games like Tales of Symphonia, Paper Mario, and Fire Emblem.
+                Once I finished High School I got into playing World of Warcraft and after a short while I raided non-casually with friends for about 8 years.
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h3>Goals</h3>
+            <div>
+                My future goals are to make Let's Play videos and began developing my own video games.
+                I went to school in order to pursue my dream of being a Video Game Designer, and I plan on starting off with making smaller games at first
+                and then depending on how successful they are build a small company where my team and I could make larger games.
+            </div>
+        </div>
+
     </div>
 </div>
-
-<!-- Goals Tab -->
-<div class="row info" ng-show="isTab(2)">
-    <h1>Goals</h1>
-</div>
-
-<!-- Contribute Tab -->
-<div class="row info" ng-show="isTab(3)">
-    <h1>Contribute</h1>
-</div>
-
-<!-- Donate Tab -->
-<div class="row info" ng-show="isTab(4)">
-    <h1>Donate</h1>
-</div>
-<!--<div class="row">-->
-    <!--<div class="col-sm-6" ng-repeat="info in information">-->
-        <!--<h5 id="gold-heading">{{ info.heading }}</h5>-->
-        <!--<div ng-repeat="line in info.body">{{ line }}</div>-->
-    <!--</div>-->
-<!--</div>-->

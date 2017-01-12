@@ -1,196 +1,201 @@
-@import "compass/css3";
-
+@import "https://lipis.github.io/bootstrap-social/bootstrap-social.css";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
 :root{
-    --powder-blue: #9db6e0;
-    /* --light-black: #535559; /* */
-    --light-black: #2d2d2d;
-    --dark-gray: #848484;
-    --black: #202123;
+    --icy-blue: #6FCDFF;    /* rgb(111,205,255) */
+    --light-gray: #848484;  /* rgba(132,132,132, .33) */
+    --dark-gray: #2d2d2d;   /* rgb(45,45,45) */
     --dusty-gold: #e8ca8b;
-    --warning-red: #db0202;
-    --dark-green: #215b06;
-    --off-white: #dee4ed;
 }
 
-/* Header */
-header .row,
-footer .row{
-    display: flex;
-    align-items: center;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-div h1 {
-    margin-top: 0px;
-    margin-left: 1%;
+body {
+    background: url(../images/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    overflow-x: hidden;
 }
 
-header div a h2{
-    margin-left: 10px;
+.container-view {
+    padding: 10%;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-#style-header{
-    background-color: var(--light-black);
-    color: var(--powder-blue);
-}
-
-/* Panels and body */
-body{
-    background-color: var(--black);
-    color: var(--dark-gray);
-}
-
-#warning{
-    color: var(--warning-red);
-}
-
-#synopsis{
-    color: var(--powder-blue);
-}
-
-#gold-heading{
-    color: var(--dusty-gold);
-}
-
-.heading{
-    margin-top: 0px;
-}
-
-.container-view{
-    padding: 1.5%;
-    overflow: scroll;
-    margin-bottom:10px;
-}
-
-.jumbotron {
-    background-color:transparent !important;
-}
-
-/*
-.project-information {
-    position: relative;
-    margin-left:100px;
-    margin-top: -1%;
-} /* */
-
-div div img {
-    max-height: 960px;
-    max-width: 100%;
-}
-
-/* Links */
-ul {
-    list-style-type: none;
-    display: inline;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-a{
-    color: var(--powder-blue);
-    text-decoration: none;
-    outline: none;
-    border: 0;
-}
-a:hover{
-    color: var(--dusty-gold);
-    text-decoration: none;
-}
-
-.nav-pills {
+.back-to-top {
     position: fixed;
-    height: 40px;
-    z-index: 1;
-    width: 100%;
-    background-color: var(--black);
-    margin-top:-1.5%;
-}
-
-img{
-    display: block;
-    margin: auto;
-}
-
-.myprofile{
-    width: 340px;
-    height: 480px;
-    margin-bottom: 10px;
-    background-color: var(--off-white);
-    color: var(--light-black);
-}
-
-.myprofile h4{
-    background-color: var(--dark-green);
-    border: solid var(--dark-green) 3px;
-    color: white;
-    width: 100%;
-}
-
-.info{
-    margin-top:40px;
-}
-
-.nav-pills > li > a:hover{
-    background-color: var(--light-black);
-    color: var(--powder-blue);
-    outline: none;
-    border: 0;
-}
-
-.nav-pills > li.active > a, .nav-pills > li.selected > a, .btn-primary {
-  background-color: var(--dark-gray) !important;
-  color: var(--dusty-gold) !important;
-  outline: none;
-  border: 0;
-}
-
-.navbar-fixed-top a{
-    color: var(--dusty-gold);
-    outline: none;
-    border: 0;
-    text-decoration: none;
-}
-.navbar-fixed-top a:hover{
-    color: white;
-} /* */
-
-.navbar-fixed-side-left a{
-    color: var(--dusty-gold);
-    text-decoration: none;
-}
-
-.navbar-fixed-bottom a{
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    z-index: 10;
+    display: none;
+    border-radius: 50%;
     color: var(--dark-gray);
+    background-color: var(--dusty-gold);
+}
+
+.back-to-top:visited{
+    decoration: none;
+    color: var(--dark-gray);
+}
+
+.back-to-top:hover{
+    color: var(--icy-blue);
+    background-color: white;
+}
+
+.back-to-top i {
+    font-size: 75px;
+}
+
+#main-container {
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: rgba(111,205,255, .6);
+    position: relative;
+    box-shadow: inset 0px 0px 20px 10px white;
+}
+
+#header{
+}
+
+#content{
+    padding-bottom:10px; /* */
+}
+
+#footer {
+    color: white;
+    /* background-color: blue; /* */
+    text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
+    margin: 0 auto;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.ng-view{
+    margin-top: -10%;
+    margin-bottom: -10%;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    decoration: none;
+    outline: 0;
+}
+
+::selection {
+    background: black;
+}
+::-moz-selection {
+    background: black;
+}
+
+.container-view p{
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
+}
+
+.ng-view a,
+.ng-view a:hover,
+.ng-view a:active,
+.ng-view a:visited,
+.ng-view a:focus {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
     text-decoration: none;
-    border: 0;
-    outline: none;
+    outline: 0;
 }
 
-.navbar-fixed-bottom a:hover{
+.ng-view a {
+    color: white;
+}
+
+.ng-view a:hover {
     color: var(--dusty-gold);
+    text-decoration: none;
 }
 
-.menuItem{
-    display: inline-block;
+.container-view h3 {
+    color: var(--dusty-gold);
+    text-shadow: 2px 2px black, 0px 0px 25px white;
+}
+
+iframe{
+    max-width: 960px;
+    max-height: 540px;
+    width: 60vw;
+    height: 33.75vw;
+    margin: 0 auto;
+    box-shadow: 0px 0px 25px white;
+}
+
+#logo {
+    width: 301.6px;
+    height: 110.4px;
+}
+
+#video-img {
+    width: 150.8px;
+    height: 55.2px;
+    margin-top: -2%;
+}
+
+.subscribe_wrapper {
+    margin-top: -17px;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea{
     width: 100%;
+    color: black;
 }
 
-/* Footer */
-.navbar-fixed-bottom {
-    border-top: solid var(--dark-gray) 1px;
+.submit-button {
+    width: 100px;
+    height: 50px;
+    background-color: var(--dark-gray);
+    color: var(--dusty-gold);
+    border: none;
+    margin-top: 10px;
 }
 
-.right {
-    float: right;
+.submit-button:hover {
+    background-color: var(--icy-blue);
+    color: white;
+    box-shadow: inset 0px 0px 20px 2px white;
 }
 
-.left{
-    float: left;
+.submit-button:active {
+background-color: var(--icy-blue);
+    color: var(--icy-blue);
+    box-shadow: inset 0px 0px 20px 2px white;
+}
+
+form {
+    width: 85%;
+    color: var(--dusty-gold);
+    margin: 0 auto;
+    margin-top: -10px;
 }

@@ -1,39 +1,61 @@
-var app = angular.module('antagonistApp', ['ngRoute']);
+var app = angular.module('letsPlay', ['ngRoute']);
 
 app.config(function($routeProvider){
     $routeProvider
         .when('/', {
             templateUrl: 'views/home.html',
-            //controller: 'homeCtrl'
+            controller: 'mainCtrl'
         })
-        .when('/contact-us', {
-            templateUrl: 'views/contact.html',
+        .when('/twitch', {
+            templateUrl: 'views/twitch.html',
+            controller: 'twitchCtrl'
         })
-        .when('/about-us', {
+        .when('/about', {
             templateUrl: 'views/about.html',
             controller: 'aboutCtrl'
         })
-        .when('/the-cure', {
-            templateUrl: 'views/thecure.html',
-            controller: 'theCureCtrl'
+        .when('/youtube', {
+            templateUrl: 'views/youtube.html',
+            controller: 'youTubeCtrl'
         })
-        .when('/warfare', {
-            templateUrl: 'views/warfare.html',
-            controller: 'warfareCtrl'
+        .when('/setup', {
+            templateUrl: 'views/setup.html',
+            controller: 'setupCtrl'
+        })
+        .when('/contact', {
+            templateUrl: 'views/contact.html',
+            controller: 'contactCtrl'
         })
         .otherwise('/');
+})
+
+.directive('component', function(){
+    return {
+        restrict: 'E',
+        scope: {
+            component: '=item',
+        },
+        templateUrl: 'views/component.html'
+    };
 });
 
-
-// jQuery scripts
+//scripts
+//Back to top of screen arrow button
 $(document).ready(function(){
-    //Set the page-view to dynamically change based on the headers.height
-    $(window).resize(function() {
-        $('.container-view').css('margin-top', $('.navbar-fixed-top').height());
-        var $viewHeight = $('.navbar-fixed-top').height() + $('.navbar-fixed-bottom').height();
-        $viewHeight = $(window).height() - $viewHeight;
-        $('.container-view').css('height', $viewHeight);
-        $('.info').css('margin-top', $('.nav-pills').height());
-    }).resize();
+    var offset = 150;
+    var duration = 300;
+    $(window).scroll(function(){
+        if($(window).scrollTop() > offset){
+            $('.back-to-top').fadeIn(duration);
+        }else{
+            $('.back-to-top').fadeOut(duration);
+        }
+    });
 
+    $('.back-to-top').click(function(event){
+        event.preventDefault();
+        console.log('button clicked');
+        window.scrollTo(0,0);
+        return false;
+    });
 });
