@@ -1,0 +1,80 @@
+.img-wrapper {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    padding-top: 100%;
+    background-color: var(--dark-gray);
+    box-shadow: inset 0px 0px 20px 10px var(--light-gray);
+    border: 2px solid var(--dusty-gold);
+    border-radius: 25%;
+}
+
+.img-wrapper:hover {
+    box-shadow: inset 0px 0px 20px 10px white, 5px 5px 5px black;
+}
+
+.img-wrapper:active {
+    box-shadow: inset 0px 0px 20px 10px var(--icy-blue);
+}
+
+.img-wrapper img {
+    max-width: 100%;
+    margin-top: -107.5%;
+    border-radius: 25%;
+}
+
+.img-wrapper h4, .img-wrapper p {
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    padding: 0.25em 0.75em;
+    position: absolute;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.container-view a div p {
+    font-size: 14px;
+}
+
+.contact-wrapper {
+    position: relative;
+    padding: 2%;
+    width: 275px;
+}
+
+.contact-wrapper > a{
+    text-decoration: none;
+}
+
+.contact-content {
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--dark-gray);
+    box-shadow: inset 0px 0px 20px 10px var(--light-gray);
+    border: 2px solid var(--dusty-gold);
+}
+
+.contact-content p, .row div {
+    color: white;
+    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
+}
+
+.contact-content:hover {
+    box-shadow: inset 0px 0px 20px 10px white;
+}
+
+.contact-content:active {
+    box-shadow: inset 0px 0px 20px 10px var(--icy-blue);
+}
+
+.lp-setup .row {
+    border: 2px solid white;
+    box-shadow: inset 0px 0px 20px 10px white;
+}
+

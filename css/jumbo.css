@@ -1,0 +1,32 @@
+.jumbotron a{
+    text-decoration: none;
+    color: var(--dusty-gold);
+}
+
+.jumbotron a:hover{
+    color: var(--powder-blue);
+}
+
+.jumbotron h1, .jumbotron h2{
+    color: var(--dusty-gold);
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
+}
+
+.jumbotron h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: -2%;
+}
+
+.jumbotron {
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: -3%;
+    background-color: rgba(45,45,45, .75);
+    /* background-color: var(--dark-gray); /* */
+    color: var(--medium-purple);
+}

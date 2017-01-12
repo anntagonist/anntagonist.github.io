@@ -1,0 +1,57 @@
+.navbar-default {
+    background-color: var(--dark-gray);
+    border-color: var(--dark-gray);
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus {
+    color: var(--dusty-gold);
+}
+
+.navbar-default .navbar-nav > li > a {
+    decoration: none;
+    outline: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+    background-color: var(--icy-blue);
+    box-shadow: inset 0px 0px 20px 2px white;
+}
+
+.navbar-default .navbar-nav > li > a:active{
+    color: var(--icy-blue);
+    background-color: var(--icy-blue);
+    box-shadow: inset 0px 0px 20px 2px white;
+}
+
+.navbar-right li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-default .navbar-nav li{
+    vertical-align: middle;
+}
+
+.icon-bar {
+    background: var(--dusty-gold) !important;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
+    border-color: var(--dusty-gold);
+}
+
+.navbar-default .navbar-toggle:hover {
+    border-color: var(--icy-blue);
+    background-color: var(--icy-blue);
+    box-shadow: inset 0px 0px 20px 2px white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background: white !important;
+}
+
+.navbar-default .navbar-nav .btn-social {
+    min-width: 200px;
+}

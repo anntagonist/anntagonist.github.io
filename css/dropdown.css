@@ -1,0 +1,38 @@
+.dropdown {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.btn, .btn-primary {
+    background-color: var(--dark-gray);
+    color: var(--dusty-gold);
+    border: 0;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn:focus
+{
+    background-color: var(--light-gray) !important;
+    color: var(--dusty-gold) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--light-gray);
+}
+
+.dropdown-menu li a{
+    color: var(--powder-blue);
+    background-color: var(--light-gray);
+}
+.dropdown-menu li a:hover{
+    color: var(--dusty-gold);
+    background-color: var(--dark-gray);
+}
+
+.dropdown-header{
+    color: var(--dusty-gold);
+    background-color: var(--light-gray);
+}
