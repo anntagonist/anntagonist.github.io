@@ -1,0 +1,50 @@
+<div class="jumbotron text-center">
+    <h1>Let's Play Setup</h1>
+    <p>What I use to make videos from start to finish</p>
+</div>
+<div class="row lp-setup">
+    <div class="row text-center" ng-show="listNotEmpty(GamingComponents)">
+        <h3>Gaming PC</h3>
+        <div ng-repeat="GamingComponent in GamingComponents" class="col-xs-6 col-sm-4 col-md-4 col-lg-3" style="margin-bottom:10px">
+            <component item="GamingComponent"></component>
+        </div>
+    </div>
+
+    <div class="row text-center" ng-show="listNotEmpty(StreamingComponents)">
+        <h3>Streaming PC</h3>
+        <div ng-repeat="StreamingComponent in StreamingComponents" class="col-xs-6 col-sm-4 col-md-4 col-lg-3" style="margin-bottom:10px">
+            <component item="StreamingComponent"></component>
+        </div>
+    </div>
+
+    <div class="row text-center" ng-show="listNotEmpty(Peripherals)">
+        <h3>Gaming Equipment</h3>
+        <div ng-repeat="Peripheral in Peripherals" class="col-xs-6 col-sm-4 col-md-4 col-lg-3" style="margin-bottom:10px">
+            <component item="Peripheral"></component>
+        </div>
+    </div>
+
+    <div class="row text-center" ng-show="listNotEmpty(RecordingItems)">
+        <h3>Recording Equipment</h3>
+        <div ng-repeat="RecordingItem in RecordingItems" class="col-xs-6 col-sm-4 col-md-4 col-lg-3" style="margin-bottom:10px">
+            <component item="RecordingItem"></component>
+        </div>
+    </div>
+
+    <div class="row text-center" ng-show="listNotEmpty(Programs)">
+        <h3>Software</h3>
+        <div ng-repeat="Program in Programs" class="col-xs-6 col-sm-4 col-md-4 col-lg-3" style="margin-bottom:10px">
+            <component item="Program"></component>
+        </div>
+    </div>
+
+    <!--<div class="col-sm-6 col-md-6">-->
+        <!--<div class="row text-center">-->
+            <!--<h3>Gaming Equipment</h3>-->
+            <!--<div ng-repeat="equip in equipment" class="col-xs-6 col-sm-6" style="margin-bottom:10px">-->
+                <!--<component item="equip"></component>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</div>
