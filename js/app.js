@@ -58,4 +58,13 @@ $(document).ready(function(){
         window.scrollTo(0,0);
         return false;
     });
+
+    $(document).click(function(event){
+        var clickover = $(event.target);
+        var $navbar = $(".navbar-collapse");
+        var _opened = $navbar.hasClass("in");
+        if(_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $navbar.collapse('hide');
+        }
+    });
 });
