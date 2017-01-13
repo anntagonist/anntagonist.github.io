@@ -32,7 +32,6 @@ body {
     height: 100%;
     width: 100%;
     /* */
-    border: 2px solid green;
 }
 
 .back-to-top {
@@ -147,7 +146,8 @@ a:focus {
 iframe{
     max-width: 960px;
     max-height: 540px;
-
+    min-width: 380px;
+    min-height: 214px;
     width: 60vw;
     height: 33.75vw;
     margin: 0 auto;
