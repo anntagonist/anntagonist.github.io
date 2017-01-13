@@ -146,11 +146,23 @@ a:focus {
 .ng-view iframe{
     max-width: 960px;
     max-height: 540px;
-    min-width: 320px;
-    min-height: 180px;
-    width: 60vw;
+    min-width: 305px;
+    min-height: 172px;
+    width: 100%;
+    margin-left: -30px;
     height: 33.75vw;
-    box-shadow: 0px 0px 25px white;
+    box-shadow: 0px 0px 25px red;
+}
+
+@media only screen and (min-width: 410px) {
+    .ng-view iframe{
+        max-width: 960px;
+        max-height: 540px;
+        width: 60vw;
+        height: 33.75vw;
+        margin: 0 auto;
+        box-shadow: 0px 0px 25px white;
+    }
 }
 
 #logo {
