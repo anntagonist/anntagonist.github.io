@@ -25,10 +25,11 @@ body {
 }
 
 .container-view {
-    padding: 10%;
+    /*padding: 10%;
     overflow-y: scroll;
     height: 100%;
     width: 100%;
+    /* */
 }
 
 .back-to-top {
