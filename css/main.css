@@ -1,5 +1,7 @@
 @import "https://lipis.github.io/bootstrap-social/bootstrap-social.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"; /* */
+@import url(//fonts.googleapis.com/css?family=Indie+Flower);
+
 :root{
     --icy-blue: #6FCDFF;    /* rgb(111,205,255) */
     --light-gray: #848484;  /* rgba(132,132,132, .33) */
@@ -20,7 +22,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover; /* */
     background-size: cover;
-    font-family: "Comic Sans MS";
+    font-family: 'Indie Flower', 'Comic Sans MS';
     overflow-x: hidden;
     overflow-y: scroll; /* */
 }
