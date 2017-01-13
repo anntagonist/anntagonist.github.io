@@ -20,7 +20,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover; /* */
     background-size: cover;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS";
     overflow-x: hidden;
 }
 
@@ -143,8 +143,7 @@ a:focus {
 iframe{
     max-width: 960px;
     max-height: 540px;
-    min-width: 320px;
-    min-height: 180px;
+
     width: 60vw;
     height: 33.75vw;
     margin: 0 auto;
