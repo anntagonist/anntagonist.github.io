@@ -146,8 +146,8 @@ a:focus {
 .ng-view iframe{
     max-width: 960px;
     max-height: 540px;
-    min-width: 380px;
-    min-height: 214px;
+    min-width: 320px;
+    min-height: 180px;
     width: 60vw;
     height: 33.75vw;
     margin: 0 auto;
