@@ -22,11 +22,11 @@ body {
     background-size: cover;
     font-family: "Comic Sans MS";
     overflow-x: hidden;
+    overflow-y: scroll; /* */
 }
 
 .container-view {
     padding: 10%;
-    overflow-y: scroll; /* */
     height: 100%;
     width: 100%;
     /* */
