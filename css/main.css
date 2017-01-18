@@ -82,7 +82,7 @@ body {
 #footer {
     color: white;
     /* background-color: blue; /* */
-    text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
+    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
     margin: 0 auto;
     height: 20px;
     bottom: 0;
@@ -116,7 +116,8 @@ a:focus {
 .container-view p{
     font-size: 18px;
     color: white;
-    text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
+    /*text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue; */
+    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
 }
 
 .ng-view a,
