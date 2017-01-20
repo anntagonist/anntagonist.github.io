@@ -181,7 +181,8 @@ a:focus {
 }
 
 .subscribe_wrapper {
-    margin-top: -17px;
+    margin-top: -20px;
+    padding: 2px;
 }
 
 textarea {
