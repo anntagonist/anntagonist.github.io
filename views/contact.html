@@ -5,15 +5,18 @@
 
 <div style="margin-bottom: 20px;">
     <form action="https://formspree.io/anntagonistletsplay@gmail.com"
+          id="contact-form"
+          onsubmit="return validateForm()"
           method="POST">
+        <div id="error"></div>
         <div style="background-color: var(--dark-gray);">Message Anntagonist Form</div>
-        <input type="text" required name="Name" size="35" placeholder="Your Name"/>
-        <input type="email" required name="Email" size="35" placeholder="Your E-mail"/>
-        <input type="text" required name="Subject" placeholder="Subject" />
+        <input type="text" id="name" name="Name" size="35" placeholder="Your Name" required/>
+        <input type="email" id="email" name="Email" size="35" placeholder="Your E-mail" required/>
+        <input type="text" id="subject" name="Subject" placeholder="Subject" required/>
         <input type="text" name="_gotcha" style="display:none;" />
         <input type="hidden" name="_subject" value="Message Anntagonist Form" />
         <!--<input type="hidden" name="_next" value="#/twitch" />-->
-        <textarea required rows="8" cols="35" name="Message" placeholder="Message"></textarea><br/>
+        <textarea rows="8" cols="35" id="message" name="Message" placeholder="Message" required></textarea><br/>
         <div class="text-center">
             <input type="submit" value="Submit" class="submit-button"/>
         </div>

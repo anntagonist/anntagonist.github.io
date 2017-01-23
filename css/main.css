@@ -221,3 +221,8 @@ form {
     margin: 0 auto;
     margin-top: -10px;
 }
+
+#error {
+    color: white;
+    background: rgba(255,0,0, .6);
+}
