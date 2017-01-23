@@ -26,6 +26,10 @@ app.config(function($routeProvider){
             templateUrl: 'views/contact.html',
             controller: 'contactCtrl'
         })
+        .when('/thanks', {
+            templateUrl: 'views/thanks.html',
+            controller: 'mainCtrl'
+        })
         .otherwise('/');
 })
 
