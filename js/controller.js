@@ -168,19 +168,19 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "Headset",
             description: "VOID RGB Wireless Dolby 7.1",
             url: "http://www.corsair.com/en/void-wireless-dolby-7-1-gaming-headset-special-edition-yellow-jacket-eu",
-            //img: 'http://www.corsair.com/~/media/corsair/product%20photos/headsets/void/wireless/large/void_wireless_se_ylw_01.png'
+            img: 'http://www.corsair.com/~/media/corsair/product%20photos/headsets/void/wireless/large/void_wireless_se_ylw_01.png'
         },
         {
             name: "Keyboard",
             description: "Corsair Strafe RGB",
             url: "http://www.corsair.com/en/strafe-rgb-mechanical-gaming-keyboard-cherry-mx-blue-eu",
-           // img: 'http://www.corsair.com/~/media/corsair/product-images/keyboards/strafe-rgb/large/strafe_rgb_na_04.png'
+            img: 'http://www.corsair.com/~/media/corsair/product-images/keyboards/strafe-rgb/large/strafe_rgb_na_04.png'
         },
         {
             name: "Mouse",
             description: "Corsair M65 Pro",
             url: "http://www.corsair.com/en/m65-pro-rgb-fps-gaming-mouse-black",
-           // img: 'http://www.corsair.com/en/~/media/46C0989089F5424E834CCE27FB2708B0.ashx'
+            img: 'http://www.corsair.com/en/~/media/46C0989089F5424E834CCE27FB2708B0.ashx'
         },
     ]
 
