@@ -153,13 +153,13 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "Mic",
             description: "Blue Snowflake",
             url: "http://www.bluemic.com/products/snowflake/",
-           // img: 'https://www.intermusic-pro.com/upload/productos/blue_snowflake_1.jpg'
+            img: 'https://www.intermusic-pro.com/upload/productos/blue_snowflake_1.jpg'
         },
         {
             name: "Web Cam",
             description: "Logitech c920 Pro",
             url: 'http://www.logitech.com/en-us/product/hd-pro-webcam-c920',
-           // img: 'https://assets.logitech.com/assets/54515/2/hd-webcam-pro-c920-gallery.png'
+            img: 'https://assets.logitech.com/assets/54515/2/hd-webcam-pro-c920-gallery.png'
         },
     ];
 
