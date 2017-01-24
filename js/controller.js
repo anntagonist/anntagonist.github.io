@@ -195,19 +195,19 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: 'Recording',
             description: 'Fraps',
             url: 'http://www.fraps.com/',
-          //  img: 'https://www.techspot.com/images2/downloads/topdownload/2014/08/Fraps.png'
+            img: 'https://www.techspot.com/images2/downloads/topdownload/2014/08/Fraps.png'
         },
         {
             name: 'Streaming',
             description: 'OBS',
             url: 'https://obsproject.com/',
-           // img: 'https://www.zutfen.com/wp-content/uploads/2015/03/obslogo400.png'
+            img: 'https://www.zutfen.com/wp-content/uploads/2015/03/obslogo400.png'
         },
         {
             name: 'Editing',
             description: 'Adobe Creative Cloud',
             url: 'https://www.adobe.com/creativecloud.html',
-          //  img: 'https://lh3.googleusercontent.com/k1vNtKXtkYmzT1YqEoJBF9-y8oiv7kCp3ldiwxgyNBlWCTgkUjElZCTG9S_8ClcFAN8R=w300'
+            img: 'https://lh3.googleusercontent.com/k1vNtKXtkYmzT1YqEoJBF9-y8oiv7kCp3ldiwxgyNBlWCTgkUjElZCTG9S_8ClcFAN8R=w300'
         },
     ];
 

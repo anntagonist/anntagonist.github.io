@@ -226,3 +226,8 @@ form {
     color: white;
     background: rgba(255,0,0, .6);
 }
+
+.row div {
+    color: white;
+    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
+}
