@@ -168,7 +168,7 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "Headset",
             description: "VOID RGB Wireless Dolby 7.1",
             url: "http://www.corsair.com/en/void-wireless-dolby-7-1-gaming-headset-special-edition-yellow-jacket-eu",
-            img: 'http://www.corsair.com/~/media/corsair/product%20photos/headsets/void/wireless/large/void_wireless_se_ylw_01.png'
+            img: 'images/gear/Headset.png'
         },
         {
             name: "Keyboard",
