@@ -189,7 +189,7 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: 'OS',
             description: 'Windows 10 Pro',
             url: 'https://www.microsoft.com/en-us/software-download/windows10ISO',
-            img: 'http://dipendrashekhawat.com/wp-content/uploads/2016/05/Windows-10.png'
+            img: 'images/Windows-10.png'
         },
         {
             name: 'Recording',
