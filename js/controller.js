@@ -81,7 +81,7 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "RAM",
             description: "G.SKILL TridentZ Series 16GB",
             url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16820231929",
-            img: 'images/components/Ram.png'
+            img: 'images/components/singleStick.png'
         },
         {
             name: 'SSD',
@@ -174,13 +174,13 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "Keyboard",
             description: "Corsair Strafe RGB",
             url: "http://www.corsair.com/en/strafe-rgb-mechanical-gaming-keyboard-cherry-mx-blue-eu",
-            img: 'http://www.corsair.com/~/media/corsair/product-images/keyboards/strafe-rgb/large/strafe_rgb_na_04.png'
+            img: 'images/gear/Keyboard.png'
         },
         {
             name: "Mouse",
             description: "Corsair M65 Pro",
             url: "http://www.corsair.com/en/m65-pro-rgb-fps-gaming-mouse-black",
-            img: 'http://www.corsair.com/en/~/media/46C0989089F5424E834CCE27FB2708B0.ashx'
+            img: 'images/gear/Mouse.png'
         },
     ]
 
