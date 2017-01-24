@@ -153,13 +153,13 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "Mic",
             description: "Blue Snowflake",
             url: "http://www.bluemic.com/products/snowflake/",
-            img: 'https://www.intermusic-pro.com/upload/productos/blue_snowflake_1.jpg'
+           // img: 'https://www.intermusic-pro.com/upload/productos/blue_snowflake_1.jpg'
         },
         {
             name: "Web Cam",
             description: "Logitech c920 Pro",
             url: 'http://www.logitech.com/en-us/product/hd-pro-webcam-c920',
-            img: 'https://assets.logitech.com/assets/54515/2/hd-webcam-pro-c920-gallery.png'
+           // img: 'https://assets.logitech.com/assets/54515/2/hd-webcam-pro-c920-gallery.png'
         },
     ];
 
@@ -168,19 +168,19 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "Headset",
             description: "VOID RGB Wireless Dolby 7.1",
             url: "http://www.corsair.com/en/void-wireless-dolby-7-1-gaming-headset-special-edition-yellow-jacket-eu",
-            img: 'http://www.corsair.com/~/media/corsair/product%20photos/headsets/void/wireless/large/void_wireless_se_ylw_01.png'
+            //img: 'http://www.corsair.com/~/media/corsair/product%20photos/headsets/void/wireless/large/void_wireless_se_ylw_01.png'
         },
         {
             name: "Keyboard",
             description: "Corsair Strafe RGB",
             url: "http://www.corsair.com/en/strafe-rgb-mechanical-gaming-keyboard-cherry-mx-blue-eu",
-            img: 'http://www.corsair.com/~/media/corsair/product-images/keyboards/strafe-rgb/large/strafe_rgb_na_04.png'
+           // img: 'http://www.corsair.com/~/media/corsair/product-images/keyboards/strafe-rgb/large/strafe_rgb_na_04.png'
         },
         {
             name: "Mouse",
             description: "Corsair M65 Pro",
             url: "http://www.corsair.com/en/m65-pro-rgb-fps-gaming-mouse-black",
-            img: 'http://www.corsair.com/en/~/media/46C0989089F5424E834CCE27FB2708B0.ashx'
+           // img: 'http://www.corsair.com/en/~/media/46C0989089F5424E834CCE27FB2708B0.ashx'
         },
     ]
 
@@ -189,25 +189,25 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: 'OS',
             description: 'Windows 10 Pro',
             url: 'https://www.microsoft.com/en-us/software-download/windows10ISO',
-            img: 'http://dipendrashekhawat.com/wp-content/uploads/2016/05/Windows-10.png'
+           // img: 'http://dipendrashekhawat.com/wp-content/uploads/2016/05/Windows-10.png'
         },
         {
             name: 'Recording',
             description: 'Fraps',
             url: 'http://www.fraps.com/',
-            img: 'https://www.techspot.com/images2/downloads/topdownload/2014/08/Fraps.png'
+          //  img: 'https://www.techspot.com/images2/downloads/topdownload/2014/08/Fraps.png'
         },
         {
             name: 'Streaming',
             description: 'OBS',
             url: 'https://obsproject.com/',
-            img: 'https://www.zutfen.com/wp-content/uploads/2015/03/obslogo400.png'
+           // img: 'https://www.zutfen.com/wp-content/uploads/2015/03/obslogo400.png'
         },
         {
             name: 'Editing',
             description: 'Adobe Creative Cloud',
             url: 'https://www.adobe.com/creativecloud.html',
-            img: 'https://lh3.googleusercontent.com/k1vNtKXtkYmzT1YqEoJBF9-y8oiv7kCp3ldiwxgyNBlWCTgkUjElZCTG9S_8ClcFAN8R=w300'
+          //  img: 'https://lh3.googleusercontent.com/k1vNtKXtkYmzT1YqEoJBF9-y8oiv7kCp3ldiwxgyNBlWCTgkUjElZCTG9S_8ClcFAN8R=w300'
         },
     ];
 
