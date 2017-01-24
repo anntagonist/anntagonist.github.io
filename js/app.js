@@ -72,3 +72,37 @@ $(document).ready(function(){
         }
     });
 });
+
+//JS scripts
+function validateForm(){
+    var inputObj = document.getElementById("name").value;
+    if(inputObj == ""){
+        document.getElementById("error").innerHTML = "Enter your name";
+        return false;
+    }
+
+    inputObj = document.getElementById("email").value;
+    if(inputObj == ""){
+        document.getElementById("error").innerHTML = "Enter your email";
+        return false;
+    }else if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(inputObj)){
+
+    }else{
+        document.getElementById("error").innerHTML = "Invalid Email Address";
+        return false;
+    }
+
+    inputObj = document.getElementById("subject").value;
+    if(inputObj == ""){
+        document.getElementById("error").innerHTML = "Enter a subject";
+        return false;
+    }
+
+    inputObj = document.getElementById("message").value;
+    if(inputObj == ""){
+        document.getElementById("error").innerHTML = "Enter your message";
+        return false;
+    }
+
+    return true;
+}

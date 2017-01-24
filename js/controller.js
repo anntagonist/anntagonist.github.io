@@ -63,49 +63,49 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name:'Motherboard',
             description:'MSI Z270 1151',
             url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16813130978',
-            img:'https://images10.newegg.com/NeweggImage/ProductImage/13-130-978-V01.jpg'
+            //img:'https://images10.newegg.com/NeweggImage/ProductImage/13-130-978-V01.jpg'
         },
         {
             name: "CPU",
             description: "Intel Core i7-7700k",
             url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16819117726",
-            img: "https://images10.newegg.com/ProductImage/19-117-726-Z01.jpg"
+           // img: "https://images10.newegg.com/ProductImage/19-117-726-Z01.jpg"
         },
         {
             name: "Video Card",
             description: "MSI GeForce GTX 1070",
             url: "https://www.newegg.com/Product/Product.aspx?item=N82E16814127951",
-            img: 'https://www.msi.com/asset/resize/image/global/product/product_8_20160607163307_575686c3c118c.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png'
+            //img: 'https://www.msi.com/asset/resize/image/global/product/product_8_20160607163307_575686c3c118c.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png'
         },
         {
             name: "RAM",
             description: "G.SKILL TridentZ Series 16GB",
             url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16820231929",
-            img: 'https://images10.newegg.com/NeweggImage/ProductImage/20-231-929-04.jpg?ex=2&ex=2'
+            //img: 'https://images10.newegg.com/NeweggImage/ProductImage/20-231-929-04.jpg?ex=2&ex=2'
         },
         {
             name: 'SSD',
             description: "Samsung EVO 850 SSD 500GB",
             url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16820147373',
-            img:'https://www.quietpc.com/images/products/samsung-ssd-850evo-120gb-large.jpg'
+           // img:'https://www.quietpc.com/images/products/samsung-ssd-850evo-120gb-large.jpg'
         },
         {
             name: 'HDD',
             description: 'WD Blue 1TB HDD',
             url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16822236339',
-            img:'https://images10.newegg.com/ProductImage/22-236-339-09.jpg'
+           // img:'https://images10.newegg.com/ProductImage/22-236-339-09.jpg'
         },
         {
             name: "PSU",
             description: 'EVGA SuperNOVA 750',
             url: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16817438017',
-            img: 'https://images10.newegg.com/NeweggImage/ProductImageCompressAll1280/17-438-017-09.jpg?w=300&h=300&ex=2'
+           // img: 'https://images10.newegg.com/NeweggImage/ProductImageCompressAll1280/17-438-017-09.jpg?w=300&h=300&ex=2'
         },
         {
             name: 'Case',
             description: 'Corsair Carbide Series Air 540',
             url: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16811139029',
-            img: 'https://images10.newegg.com/NeweggImage/ProductImageCompressAll1280/11-139-029-02.jpg?w=660&h=500&ex=2'
+            img: 'images/components/Case.png'
         }
     ];
 
