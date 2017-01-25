@@ -46,8 +46,8 @@ app.config(function($routeProvider){
 //scripts
 //Back to top of screen arrow button
 $(document).ready(function(){
-    var offset = 150;
-    var duration = 300;
+    var offset = 50;
+    var duration = 30;
     $(window).scroll(function(){
         if($(window).scrollTop() > offset){
             $('.back-to-top').fadeIn(duration);
