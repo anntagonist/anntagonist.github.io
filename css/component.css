@@ -3,11 +3,11 @@
     max-width: 300px;
     max-height: 300px;
     width: 100%;
-    padding-top: 100%;
+    padding-top: 90%;
     background-color: var(--dark-gray);
     box-shadow: inset 0px 0px 20px 10px var(--light-gray);
     border: 2px solid var(--dusty-gold);
-    border-radius: 25%;
+    border-radius: 50%;
 }
 
 .img-wrapper:hover {
@@ -19,8 +19,8 @@
 }
 
 .img-wrapper img {
-    max-width: 70%;
-    margin-top: -107.5%;
+    max-width: 60%;
+    margin-top: -90%;
     /*border-radius: 25%; */
 }
 
