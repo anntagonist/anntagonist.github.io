@@ -1,5 +1,4 @@
 app.controller("mainCtrl", function($scope, $rootScope, $location){
-//    $location.path("/");
     $rootScope.showYouTubeSubscribe = true;
 
     $scope.init = function(){
@@ -107,45 +106,6 @@ app.controller('setupCtrl', function($scope, $rootScope){
             url: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16811139029',
             img: 'images/components/Case.png'
         }
-    ];
-
-    $scope.StreamingComponents = [
-//        {
-//            name: "CPU",
-//            description: "Intel Core i5-4670",
-//            url: "https://ark.intel.com/products/75047/Intel-Core-i5-4670-Processor-6M-Cache-up-to-3_80-GHz",
-//            img: 'https://images10.newegg.com/ProductImage/19-116-898-03.jpg'
-//        },
-//        {
-//            name: "Video Card",
-//            description: "MSI GeForce GTX 1070",
-//            url: "https://www.newegg.com/Product/Product.aspx?item=N82E16814127951",
-//            img: 'https://www.msi.com/asset/resize/image/global/product/product_8_20160607163307_575686c3c118c.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png'
-//        },
-//        {
-//            name: "RAM",
-//            description: "G.SKILL Ripjaws X Series 16GB",
-//            url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16820231568",
-//            img: 'http://images10.newegg.com/NeweggImage/ProductImage/20-231-568-02.jpg'
-//        },
-//        {
-//            name:'Motherboard',
-//            description:'ASUS Z87-A LGA 1150 Intel Z87',
-//            url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16813131981',
-//            img:'https://images10.newegg.com/ProductImage/13-131-981-09.jpg'
-//        },
-//        {
-//            name: 'SSD',
-//            description: "Samsung EVO 850 SSD 500GB",
-//            url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16820147373',
-//            img:'https://www.quietpc.com/images/products/samsung-ssd-850evo-120gb-large.jpg'
-//        },
-//        {
-//            name: 'HDD',
-//            description: 'WD Blue 1TB HDD',
-//            url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16822236339',
-//            img:'https://images10.newegg.com/ProductImage/22-236-339-09.jpg'
-//        },
     ];
 
     $scope.RecordingItems = [
