@@ -1,12 +1,12 @@
 @import "https://lipis.github.io/bootstrap-social/bootstrap-social.css";
-@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"; /* */
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url(//fonts.googleapis.com/css?family=Indie+Flower);
 @import url(//fonts.googleapis.com/css?family=Audiowide);
 
 :root{
-    --icy-blue: #6FCDFF;    /* rgb(111,205,255) */
-    --light-gray: #848484;  /* rgba(132,132,132, .33) */
-    --dark-gray: #2d2d2d;   /* rgb(45,45,45) */
+    --icy-blue: #6FCDFF;
+    --light-gray: #848484;
+    --dark-gray: #2d2d2d;
     --dusty-gold: #e8ca8b;
 }
 
@@ -21,12 +21,11 @@ body {
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; /* */
+    -o-background-size: cover;
     background-size: cover;
-    /*font-family: 'Indie Flower', 'Comic Sans MS'; /* */
     font-family: 'Audiowide';
     overflow-x: hidden;
-    overflow-y: scroll; /* */
+    overflow-y: scroll;
 }
 
 .container-view {
@@ -84,7 +83,6 @@ body {
 
 #footer {
     color: white;
-    /* background-color: blue; /* */
     text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
     margin: 0 auto;
     height: 20px;
@@ -96,7 +94,6 @@ body {
 }
 
 .ng-view{
-
     margin-bottom: -10%;
 }
 
@@ -159,30 +156,6 @@ a:focus {
     box-shadow: 0px 0px 25px white;
 }
 
-/*@media only screen and (min-width: 380px) {
-    .ng-view iframe{
-        max-width: 960px;
-        max-height: 540px;
-        min-width: 320px;
-        min-height: 180px;
-        width: 80vw;
-        height: 45vw;
-        margin: 0 auto;
-        box-shadow: 0px 0px 25px white;
-    }
-} /* */
-
-#logo {
-    width: 301.6px;
-    height: 110.4px;
-}
-
-#video-img {
-    width: 150.8px;
-    height: 55.2px;
-    margin-top: -2%;
-}
-
 .subscribe_wrapper {
     margin-top: -20px;
     padding: 2px;
@@ -213,7 +186,7 @@ input, textarea{
 }
 
 .submit-button:active {
-background-color: var(--icy-blue);
+    background-color: var(--icy-blue);
     color: var(--icy-blue);
     box-shadow: inset 0px 0px 20px 2px white;
 }
