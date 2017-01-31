@@ -66,43 +66,43 @@ app.controller('setupCtrl', function($scope, $rootScope){
         },
         {
             name: "CPU",
-            description: "Intel Core i7-7700k",
+            description: "Intel 7700k",
             url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16819117726",
             img: 'images/components/CPU.png'
         },
         {
             name: "Video Card",
-            description: "MSI GeForce GTX 1070",
+            description: "MSI GTX 1070",
             url: "https://www.newegg.com/Product/Product.aspx?item=N82E16814127951",
             img: 'images/components/VideoCard.png'
         },
         {
             name: "RAM",
-            description: "G.SKILL TridentZ Series 16GB",
+            description: "G.SKILL 16GB",
             url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16820231929",
             img: 'images/components/singleStick.png'
         },
         {
             name: 'SSD',
-            description: "Samsung EVO 850 SSD 500GB",
+            description: "Samsung Evo 850",
             url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16820147373',
             img: 'images/components/SSD.png'
         },
         {
             name: 'HDD',
-            description: 'WD Blue 1TB HDD',
+            description: 'WD Blue HDD',
             url:'https://www.newegg.com/Product/Product.aspx?Item=N82E16822236339',
             img: 'images/components/HDD.png'
         },
         {
             name: "PSU",
-            description: 'EVGA SuperNOVA 750',
+            description: 'EVGA 750',
             url: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16817438017',
             img: 'images/components/PSU.png'
         },
         {
             name: 'Case',
-            description: 'Corsair Carbide Series Air 540',
+            description: 'Corsair Air 540',
             url: 'https://www.newegg.com/Product/Product.aspx?Item=N82E16811139029',
             img: 'images/components/Case.png'
         }
@@ -111,7 +111,7 @@ app.controller('setupCtrl', function($scope, $rootScope){
     $scope.RecordingItems = [
         {
             name: "Mic",
-            description: "Blue Snowflake",
+            description: "Blue Yeti",
             url: "http://www.bluemic.com/products/snowflake/",
             img: 'https://www.intermusic-pro.com/upload/productos/blue_snowflake_1.jpg'
         },
