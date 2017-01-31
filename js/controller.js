@@ -68,7 +68,7 @@ app.controller('setupCtrl', function($scope, $rootScope){
             name: "CPU",
             description: "Intel 7700k",
             url: "https://www.newegg.com/Product/Product.aspx?Item=N82E16819117726",
-            img: 'images/components/CPU.png'
+            img: 'images/components/7700k.png'
         },
         {
             name: "Video Card",
@@ -112,8 +112,20 @@ app.controller('setupCtrl', function($scope, $rootScope){
         {
             name: "Mic",
             description: "Blue Yeti",
-            url: "http://www.bluemic.com/products/snowflake/",
-            img: 'https://www.intermusic-pro.com/upload/productos/blue_snowflake_1.jpg'
+            url: "https://www.amazon.com/dp/B00N1YPXW2/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1QH7T77MUD2T0&coliid=IGS1C3TX2D31H&psc=1",
+            img: 'images/recording/yeti.png'
+        },
+        {
+            name: "Pop Filter",
+            description: "YOUSHARES Windscreen",
+            url: "https://www.amazon.com/dp/B01N1H1ZX8/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1QH7T77MUD2T0&coliid=I1BHBR4R44CQEO&psc=1",
+            img: 'images/recording/popFilter.png'
+        },
+        {
+            name: "Boom Arm",
+            description: "Knox Microphone Arm",
+            url: "https://www.amazon.com/dp/B01N40CPJE/ref=wl_it_dp_o_pC_nS_img?_encoding=UTF8&colid=1QH7T77MUD2T0&coliid=I3TEIU0EKTPHL1",
+            img: 'images/recording/boomArm.png'
         },
         {
             name: "Web Cam",
