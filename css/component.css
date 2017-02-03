@@ -35,6 +35,8 @@
 
 .row {
     margin-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .container-view a div p {
@@ -44,5 +46,9 @@
 .lp-setup .row {
     border: 2px solid white;
     box-shadow: inset 0px 0px 20px 10px white;
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--light-gray);
 }
 

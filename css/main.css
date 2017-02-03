@@ -18,22 +18,26 @@ body, html {
 }
 
 body {
-    background: url(../images/Background.png) no-repeat center center fixed;
-
+   /* background: url(../images/Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Audiowide';
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /*overflow-x: hidden;
+    overflow-y: scroll; */
+    min-height: 100%;
+    background-color: var(--light-gray);
 }
 
 .container-view {
-    padding: 10%;
-    height: 100%;
+    padding: 2%;
+    min-height: calc(100vh - 127px);
     width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
     /* */
+    overflow: auto;
 }
 
 .back-to-top {
@@ -64,38 +68,50 @@ body {
 }
 
 #main-container {
-    max-width: 1280px;
-    min-height: 100%;
+    max-width: 1080px;
+    /*min-height: 100%; */
     margin: 0 auto;
-    background-color: rgba(111,205,255, .6);
+    /*background-color: rgba(111,205,255, .6);
     position: relative;
     display: block;
-    box-shadow: inset 0px 0px 20px 10px white;
+    /* box-shadow: inset 0px 0px 20px 10px white; */
 }
 
-#header{
-
+.my-container {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 75px;
 }
 
-#content{
-    padding-bottom:10px; /* */
-    margin-top: -10%;
+.header{
+    width: 100vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: var(--dark-gray);
 }
 
-#footer {
+.content{
+    /*padding-bottom:100px; /* */
+    margin: 0 auto;
+}
+
+.footer {
     color: white;
     text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
     margin: 0 auto;
-    height: 20px;
     bottom: 0;
     left: 0;
     right: 0;
     position: absolute;
     text-align: center;
+    background-color: var(--dark-gray);
+    height: 75px;
+    width: 100vw;
 }
 
 .ng-view{
-    margin-bottom: -10%;
+    /*margin-bottom: -10%; */
 }
 
 a,
@@ -151,14 +167,13 @@ a:focus {
     max-width: 960px;
     max-height: 540px;
 
-    width: 100%;
-    height: calc(70vw * 1080.0 / 1920.0);
+    width: 90vw;
+    height: calc(90vw * 1080.0 / 1920.0);
     margin: 0 auto;
     box-shadow: 0px 0px 25px white;
 }
 
 .subscribe_wrapper {
-    margin-top: -20px;
     padding: 2px;
 }
 
