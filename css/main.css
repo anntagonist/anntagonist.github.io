@@ -142,15 +142,11 @@ a:focus {
 .ng-view a:active,
 .ng-view a:visited,
 .ng-view a:focus {
-    font-size: 18px;
-    color: white;
-    text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
+    font-size: 16px;
+    color: var(--icy-blue);
+    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--dusty-gold), 0px 0px 5px white;
     text-decoration: none;
     outline: 0;
-}
-
-.ng-view a {
-    color: white;
 }
 
 .ng-view a:hover {
