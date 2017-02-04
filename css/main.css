@@ -28,6 +28,8 @@ body {
     font-family: 'Audiowide';
     min-height: 100%;
     background-color: var(--light-gray);
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .container-view {
@@ -37,7 +39,6 @@ body {
     max-width: 1080px;
     margin: 0 auto;
     /* */
-    overflow: auto;
 }
 
 .back-to-top {
