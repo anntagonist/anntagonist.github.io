@@ -34,7 +34,7 @@ body {
     padding: 2%;
     min-height: calc(100vh - 127px);
     width: 100%;
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
     /* */
     overflow: auto;
@@ -68,7 +68,7 @@ body {
 }
 
 #main-container {
-    max-width: 1080px;
+    max-width: 1280px;
     /*min-height: 100%; */
     margin: 0 auto;
     /*background-color: rgba(111,205,255, .6);
