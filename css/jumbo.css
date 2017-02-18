@@ -23,8 +23,7 @@
 }
 
 .jumbotron {
-    margin-left: -2%;
-    margin-right: -2%;
+    max-width: 100%;
     background-color: rgba(45,45,45, .75);
     color: var(--medium-purple);
 }
