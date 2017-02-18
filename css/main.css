@@ -33,7 +33,7 @@ body {
 }
 
 .container-view {
-    padding: 2%;
+    padding: 2px;
     min-height: calc(100vh - 127px);
     width: 100%;
     max-width: 1280px;
