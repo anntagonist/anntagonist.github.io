@@ -7,7 +7,7 @@
     background-color: var(--dark-gray);
     box-shadow: inset 0px 0px 20px 10px var(--light-gray);
     border: 2px solid var(--dusty-gold);
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 .img-wrapper:hover {
@@ -46,9 +46,9 @@
 .lp-setup .row {
     border: 2px solid white;
     box-shadow: inset 0px 0px 20px 10px white;
-    max-width: 1080px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    margin-bottom: 10px;
     background-color: var(--light-gray);
 }
 
