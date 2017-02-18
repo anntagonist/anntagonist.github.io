@@ -164,10 +164,9 @@ a:focus {
     max-width: 854px; /* 960 x 540 */
     max-height: 480px;
 
-    width: 100vw;
-    height: calc(100vw * 1080.0 / 1920.0);
+    width: 98vw;
+    height: calc(98vw * 1080.0 / 1920.0);
     margin: 0 auto;
-    margin-left: -2px;
     box-shadow: 0px 0px 25px white;
 }
 
