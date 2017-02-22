@@ -3,6 +3,9 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url(//fonts.googleapis.com/css?family=Indie+Flower);
 @import url(//fonts.googleapis.com/css?family=Audiowide);
+@import url(//fonts.googleapis.com/css?family=Rokkitt);
+@import url(//fonts.googleapis.com/css?family=Orbitron);
+
 
 :root{
     --icy-blue: #6FCDFF;
@@ -25,7 +28,7 @@ body {
     background-size: cover;
     /*overflow-x: hidden;
     overflow-y: scroll; */
-    font-family: 'Audiowide';
+    font-family: 'Orbitron';
     min-height: 100%;
     background-color: var(--light-gray);
     overflow-y: scroll;
