@@ -3,12 +3,35 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url(//fonts.googleapis.com/css?family=Indie+Flower);
 @import url(//fonts.googleapis.com/css?family=Audiowide);
+@import url(//fonts.googleapis.com/css?family=Lato);
+@import url(//fonts.googleapis.com/css?family=Bowlby+One);
 
 :root{
-    --icy-blue: #6FCDFF;
+    --orange: rgba(280,100,29,1.0);
+    --purple: rgba(99, 0, 148, 1);
+    --icy-blue: #6FCDFF; /*111,205,255 */
     --light-gray: #848484;
-    --dark-gray: #2d2d2d;
-    --dusty-gold: #e8ca8b;
+    --dark-gray: #2d2d2d;    /* 45,45,45 */
+    --dusty-gold: #e8ca8b;   /* rgba(232, 202, 139, 1) */
+
+    --charc-blue: #2f4550;   /* rgba(47, 69, 80, 1) */
+    --uh-blue: #586f7c;      /* rgba(88, 111, 124, 1) */
+    --off-white: #f4f4f9;    /* rgba(244, 244, 349, 1) */
+    --body-text: #000000;    /* rgba(0, 0, 0, 1) */
+    --baby-blue: #B8DBD9;    /* rgba(184, 219, 217, 1) */
+
+    --deep-koamaru: #3d315b; /* rgba(61, 49, 91, .25) */
+    --deeper-koamaru: #303052; /* rgba(48, 48, 82, .25) */
+    --independence: #444b6e; /* rgba(68, 75, 110, .25) */
+    --xanadu: #708B75;       /* rgba(112, 139, 117, .25) */
+    --peach: #fcd0a1;        /* rgba(252, 208, 161, .25) */
+    --laurel-green: #b1b695; /* rgba(177, 182, 149, .25) */
+
+    --sky-blue: #65afff;     /* rgba(101, 175, 255, .25) */
+    --un-blue: #5899e2;      /* rgba(88, 153, 226, .25) */
+    --licorice: #0e1116;     /* rgba(14, 17, 22, .25) */
+    --yankees-blue: #112838; /* rgba(17, 40, 56, .25) */
+
 }
 
 body, html {
@@ -25,9 +48,9 @@ body {
     background-size: cover;
     /*overflow-x: hidden;
     overflow-y: scroll; */
-    font-family: 'Audiowide';
+    font-family: 'Lato';
     min-height: 100%;
-    background-color: var(--light-gray);
+    background-color: var(--independence);
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -89,7 +112,7 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    background-color: var(--dark-gray);
+    background-color: var(--deep-koamaru);
 }
 
 .content{
@@ -106,13 +129,13 @@ body {
     right: 0;
     position: absolute;
     text-align: center;
-    background-color: var(--dark-gray);
+    background-color: var(--deep-koamaru);
     height: 75px;
     width: 100vw;
 }
 
 .ng-view{
-    /*margin-bottom: -10%; */
+    /* margin-bottom: -10%; */
 }
 
 a,
@@ -132,7 +155,7 @@ a:focus {
 }
 
 .container-view p{
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     /*text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue; */
     text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
@@ -157,7 +180,7 @@ a:focus {
 
 .container-view h3 {
     color: var(--dusty-gold);
-    text-shadow: 2px 2px black, 0px 0px 25px white;
+    /* text-shadow: 2px 2px black, 0px 0px 25px white; */
 }
 
 .ng-view iframe {
@@ -186,22 +209,44 @@ input, textarea{
 .submit-button {
     width: 100px;
     height: 50px;
-    background-color: var(--dark-gray);
-    color: var(--dusty-gold);
+    background: rgba(88, 153, 226, 1);
+    color: white;
     border: none;
     margin-top: 10px;
 }
 
 .submit-button:hover {
+    background: rgba(88, 153, 226, .25);
+    width: 120px;
+    height: 70px;
+    border: 3px solid white;
+    margin-top: 0px;
+    font-opacity: 1.0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+/*
+.submit-button:hover {
     background-color: var(--icy-blue);
     color: white;
     box-shadow: inset 0px 0px 20px 2px white;
-}
+} */
 
 .submit-button:active {
-    background-color: var(--icy-blue);
+    /*background-color: var(--icy-blue);
     color: var(--icy-blue);
-    box-shadow: inset 0px 0px 20px 2px white;
+    box-shadow: inset 0px 0px 20px 2px white; */
+    width: 120px;
+    height: 70px;
+    background: rgba(88, 153, 226, 1);
+    color: white;
+    border: 3px solid white;
+    margin-top: 0px;
+    font-opacity: 1.0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
 }
 
 form {
@@ -219,4 +264,43 @@ form {
 .row div {
     color: white;
     text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
+}
+
+.about {
+    /*border: 3px solid var(--body-back); */
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    background: var(--deeper-koamaru);
+    min-width: 40%;
+    min-height: 250px;
+    font-family: 'Bowlby One';
+}
+
+.container-view .about-row .about h3 {
+   margin: 0px;
+   color: var(--dusty-gold);
+   /* background:var(--dark-gray); */
+   width: 100%;
+   text-shadow: none;
+   text-decoration: none;
+}
+
+.container-view .about-row .about li {
+    color: var(--sky-blue);
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.about-header {
+    /* top-right-bottom-left */
+    padding: 2px;
+    background: var(--dark-gray);
+    text-align: center;
+}
+
+.about-body {
+    padding: 2px 4px 2px 8px;
 }

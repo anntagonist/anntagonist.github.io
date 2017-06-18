@@ -1,11 +1,11 @@
 .navbar-default {
-    background-color: var(--dark-gray);
-    border-color: var(--dark-gray);
+    background-color: var(--deep-koamaru);
+    border-color: var(--deep-koamaru);
 }
 
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus {
-    color: var(--dusty-gold);
+    color: var(--off-white);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -14,15 +14,15 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color: white;
-    background-color: var(--icy-blue);
-    box-shadow: inset 0px 0px 20px 2px white;
+    color: var(--deep-koamaru);
+    background-color: rgba(244, 244, 349, .5);
+    /* box-shadow: inset 0px 0px 20px 2px white; */
 }
 
 .navbar-default .navbar-nav > li > a:active{
-    color: var(--icy-blue);
-    background-color: var(--icy-blue);
-    box-shadow: inset 0px 0px 20px 2px white;
+    color: var(--deep-koamaru);
+    background-color: var(--off-white);
+    /* box-shadow: inset 0px 0px 20px 2px white; */
 }
 
 .navbar-right li {
