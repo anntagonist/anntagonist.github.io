@@ -1,6 +1,6 @@
 .navbar-default {
-    background-color: var(--deep-koamaru);
-    border-color: var(--deep-koamaru);
+    background-color: var(--black-olive);
+    border-color: var(--black-olive);
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -14,13 +14,13 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color: var(--deep-koamaru);
+    color: var(--black-olive);
     background-color: rgba(244, 244, 349, .5);
     /* box-shadow: inset 0px 0px 20px 2px white; */
 }
 
 .navbar-default .navbar-nav > li > a:active{
-    color: var(--deep-koamaru);
+    color: var(--black-olive);
     background-color: var(--off-white);
     /* box-shadow: inset 0px 0px 20px 2px white; */
 }
@@ -43,8 +43,8 @@
 }
 
 .navbar-default .navbar-toggle:hover {
-    border-color: var(--icy-blue);
-    background-color: var(--icy-blue);
+    border-color: var(--black-olive);
+    background-color: rgba(244, 244, 349, .5);
     box-shadow: inset 0px 0px 20px 2px white;
 }
 
