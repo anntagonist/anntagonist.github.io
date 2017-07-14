@@ -38,6 +38,9 @@
     --tufts-blue: #3f88c5;
     --verdigris: #44bba4;
     --isabelline: #f6f7eb;
+
+    --twitch: #6441A4;
+    --youtube-red: #CD201F;
 }
 
 body, html {
@@ -56,7 +59,7 @@ body {
     overflow-y: scroll; */
     font-family: 'Lato';
     min-height: 100%;
-    background-color: var(--isabelline);
+    background-color: var(--light-gray);
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -189,7 +192,17 @@ a:focus {
     /* text-shadow: 2px 2px black, 0px 0px 25px white; */
 }
 
-.ng-view iframe {
+.live-frame {
+    width: 100%;
+    height: calc(98vw * 1080.0 / 1920.0);
+
+    max-width: 720px; /* 960 x 540 */
+    max-height: 405px;
+    margin: 0;
+    box-shadow: 0px 0px 25px white;
+}
+
+.home-frame {
     max-width: 720px; /* 960 x 540 */
     max-height: 405px;
 
@@ -197,6 +210,14 @@ a:focus {
     height: calc(98vw * 1080.0 / 1920.0);
     margin: 0 auto;
     box-shadow: 0px 0px 25px white;
+}
+
+.frame {
+    padding: 0;
+}
+
+.ng-view iframe {
+
 }
 
 .subscribe_wrapper {
@@ -315,4 +336,37 @@ form {
     top: 0;
     padding: 2px 4px 2px 8px;
     font-family: 'Indie Flower';
+}
+
+.red {
+    border: 5px solid red;
+}
+
+.blue {
+    border: 5px solid blue;
+}
+
+.live-button {
+    width: 200px;
+    height: 100px;
+    color: var(--off-white);
+    font-family: 'Audiowide';
+    border: none;
+}
+
+.live-button:hover {
+    border: 2px solid white;
+}
+
+.live-youtube {
+    background-color: var(--youtube-red);
+}
+
+.live-twitch {
+    background-color: var(--twitch);
+}
+
+.center {
+    align: center;
+    margin: 0 auto;
 }

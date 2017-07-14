@@ -106,3 +106,12 @@ function validateForm(){
 
     return true;
 }
+
+function iframeChange(value){
+    var ifram = document.getElementById('liveFrame');
+    if(value === 'twitch'){
+        ifram.src = 'https://player.twitch.tv/?channel=anntagonist';
+    }else{
+        ifram.src = 'https://www.youtube.com/embed/live_stream?channel=UCUGVCyMcHmMdgurifW0OXBg';
+    }
+}
