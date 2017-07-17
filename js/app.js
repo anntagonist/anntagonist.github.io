@@ -30,6 +30,10 @@ app.config(function($routeProvider){
             templateUrl: 'views/thanks.html',
             controller: 'mainCtrl'
         })
+        .when('/links', {
+            templateUrl: 'views/links.html',
+            controller: 'mainCtrl'
+        })
         .otherwise('/');
 })
 

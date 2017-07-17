@@ -1,0 +1,43 @@
+.link-button:link,
+.link-button:visited,
+.link-button:hover,
+.link-button:focus{
+    width: 200px;
+    height: 100px;
+    color: var(--off-white);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 115px;
+    display: inline-block;
+    decoration: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#link-button{
+    width: 200px;
+    height: 100px;
+    color: var(--off-white);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 115px;
+    display: inline-block;
+    decoration: none;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    border: 2px solid white;
+    line-height: 111px;
+}
+
+.twitter-button {
+    background-color: var(--twitter);
+    text-decoration: none;
+}
+
+.facebook-button {
+    background-color: var(--facebook);
+    text-decoration: none;
+}
+

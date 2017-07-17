@@ -41,6 +41,8 @@
 
     --twitch: #6441A4;
     --youtube-red: #CD201F;
+    --twitter: #0084b4;
+    --facebook: #3b5998;
 }
 
 body, html {
@@ -167,9 +169,10 @@ a:focus {
     font-size: 14px;
     color: white;
     /*text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue; */
-    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
+    /*text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold); */
 }
 
+/*
 .ng-view a,
 .ng-view a:hover,
 .ng-view a:active,
@@ -185,7 +188,7 @@ a:focus {
 .ng-view a:hover {
     color: var(--dusty-gold);
     text-decoration: none;
-}
+} */
 
 .container-view h3 {
     color: var(--dusty-gold);
@@ -286,11 +289,11 @@ form {
     color: white;
     background: rgba(255,0,0, .6);
 }
-
+/*
 .row div {
     color: white;
     text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold);
-}
+} */
 
 .about {
     padding-left: 0px;
