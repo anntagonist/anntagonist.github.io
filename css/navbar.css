@@ -55,3 +55,11 @@
 .navbar-default .navbar-nav .btn-social {
     min-width: 200px;
 }
+
+.navbar-brand:link,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:visited{
+    color: var(--off-white);
+    decoration: none;
+}
