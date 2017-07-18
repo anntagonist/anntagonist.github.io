@@ -353,8 +353,9 @@ form {
     width: 200px;
     height: 100px;
     color: var(--off-white);
-    font-family: 'Audiowide';
     border: none;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .live-button:hover {

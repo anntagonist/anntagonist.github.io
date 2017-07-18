@@ -20,14 +20,6 @@
     text-align: center;
 }
 
-.test-box {
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-    background-color: var(--facebook);
-    margin: 10px;
-}
-
 #link-button{
     width: 200px;
     height: 100px;
