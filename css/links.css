@@ -16,6 +16,26 @@
 
 }
 
+#link-block{
+    max-width: 500px;
+}
+
+.test-box-1{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    background-color: var(--carmine-pink);
+}
+
+.test-box-2{
+    display: inline-block;
+    width: 250px;
+    height: 125px;
+    margin: 5px;
+    background-color: var(--dusty-gold);
+}
+
 .links {
     text-align: center;
 }
