@@ -59,7 +59,8 @@
 .navbar-brand:link,
 .navbar-brand:hover,
 .navbar-brand:focus,
-.navbar-brand:visited{
+.navbar-brand:visited,
+.navbar-brand:active{
     color: var(--off-white);
     decoration: none;
 }
