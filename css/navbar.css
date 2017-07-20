@@ -16,13 +16,11 @@
 .navbar-default .navbar-nav > li > a:hover{
     color: var(--black-olive);
     background-color: rgba(244, 244, 349, .5);
-    /* box-shadow: inset 0px 0px 20px 2px white; */
 }
 
 .navbar-default .navbar-nav > li > a:active{
     color: var(--black-olive);
     background-color: var(--off-white);
-    /* box-shadow: inset 0px 0px 20px 2px white; */
 }
 
 .navbar-right li {

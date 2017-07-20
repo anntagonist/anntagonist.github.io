@@ -52,13 +52,6 @@ body, html {
 }
 
 body {
-   /* background: url(../images/Background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*overflow-x: hidden;
-    overflow-y: scroll; */
     font-family: 'Lato';
     min-height: 100%;
     background-color: var(--light-gray);
@@ -104,12 +97,7 @@ body {
 
 #main-container {
     max-width: 1280px;
-    /*min-height: 100%; */
     margin: 0 auto;
-    /*background-color: rgba(111,205,255, .6);
-    position: relative;
-    display: block;
-    /* box-shadow: inset 0px 0px 20px 10px white; */
 }
 
 .my-container {
@@ -127,7 +115,6 @@ body {
 }
 
 .content{
-    /*padding-bottom:100px; /* */
     margin: 0 auto;
 }
 
@@ -143,10 +130,6 @@ body {
     background-color: var(--black-olive);
     height: 75px;
     width: 100vw;
-}
-
-.ng-view{
-    /* margin-bottom: -10%; */
 }
 
 a,
@@ -168,31 +151,10 @@ a:focus {
 .container-view p{
     font-size: 14px;
     color: white;
-    /*text-shadow: 1px 1px 3px black, 0px 0px 25px blue, 0px 0px 5px darkblue; */
-    /*text-shadow: 1px 1px 3px black, 0px 0px 25px var(--icy-blue), 0px 0px 5px var(--dusty-gold); */
 }
-
-/*
-.ng-view a,
-.ng-view a:hover,
-.ng-view a:active,
-.ng-view a:visited,
-.ng-view a:focus {
-    font-size: 16px;
-    color: var(--icy-blue);
-    text-shadow: 1px 1px 3px black, 0px 0px 25px var(--dusty-gold), 0px 0px 5px white;
-    text-decoration: none;
-    outline: 0;
-}
-
-.ng-view a:hover {
-    color: var(--dusty-gold);
-    text-decoration: none;
-} */
 
 .container-view h3 {
     color: var(--dusty-gold);
-    /* text-shadow: 2px 2px black, 0px 0px 25px white; */
 }
 
 .live-frame {
