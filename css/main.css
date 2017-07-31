@@ -55,8 +55,20 @@ body {
     font-family: 'Lato';
     min-height: 100%;
     background-color: var(--light-gray);
+    background-image: url("../images/Background_01_rotated.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+@media screen and (min-width: 453px) {
+    body{
+        background-image: url("../images/Background_01.png");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
 }
 
 .container-view {
