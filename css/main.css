@@ -62,7 +62,7 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 453px) {
+@media screen and (min-width: 800px) {
     body{
         background-image: url("../images/Background_01.png");
         background-size: 1600px 900px;
