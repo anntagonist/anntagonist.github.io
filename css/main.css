@@ -57,8 +57,7 @@ body {
     background-color: var(--light-gray);
     background-image: url("../images/Background_01_rotated.png");
     background-size: 450px 800px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: repeat;
     overflow-y: scroll;
     overflow-x: hidden;
 }
