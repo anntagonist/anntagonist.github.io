@@ -68,6 +68,7 @@ body {
         background-image: url("../images/Background_01.png");
         background-size: 100vw 100vh;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
