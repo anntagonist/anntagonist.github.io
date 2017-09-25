@@ -55,29 +55,33 @@ body {
     font-family: 'Lato';
     min-height: 100%;
     background-color: var(--light-gray);
-    background-image: url("../images/Background_01_rotated.png");
+    /*background-image: url("../images/Background_01_rotated.png");
     background-size: 450px 800px;
     background-repeat: repeat;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden; //*/
+
+    overflow-y: hidden;
 }
 
 @media screen and (min-width: 1335px) {
     body{
-        background-image: url("../images/Background_01.png");
+        /*background-image: url("../images/Background_01.png");
         background-size: 1600px 900px;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: fixed; //*/
     }
 }
 
 .container-view {
     padding: 2px;
-    min-height: calc(100vh - 127px);
+    height: calc(100vh - 127px);
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     /* */
+    overflow-y: auto;
+    border: 2px solid red;
 }
 
 .back-to-top {
